@@ -1,0 +1,11 @@
+Record=TopLevelDocument|FileName=P01_Title Page.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=P01_Title Page.SchDoc|FileName=P02_Power Management.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=P01_Title Page.SchDoc|FileName=P03_AM335x 1_3, JTAG.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=P01_Title Page.SchDoc|FileName=P04_AM335x 2_3, USB.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=P01_Title Page.SchDoc|FileName=P05_AM335x 3_3.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=P01_Title Page.SchDoc|FileName=P06_LED, Config.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=P01_Title Page.SchDoc|FileName=P07_DDR3 Memory.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=P01_Title Page.SchDoc|FileName=P08_eMMC FLASH.SchDoc|SheetNumber=8
+Record=NoMainPathDocument|SourceDocument=P01_Title Page.SchDoc|FileName=P09_10_100 Ethernet.SchDoc|SheetNumber=9
+Record=NoMainPathDocument|SourceDocument=P01_Title Page.SchDoc|FileName=P10_HDMI.SchDoc|SheetNumber=10
+Record=NoMainPathDocument|SourceDocument=P01_Title Page.SchDoc|FileName=P11_Exp Conn, uSD.SchDoc|SheetNumber=11
