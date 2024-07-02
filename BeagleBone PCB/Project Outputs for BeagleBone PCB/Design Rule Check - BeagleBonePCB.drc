@@ -1,0 +1,1059 @@
+Protel Design System Design Rule Check
+PCB File : F:\BeagleBone PCB\BeagleBone PCB\BeagleBonePCB.PcbDoc
+Date     : 7/2/2024
+Time     : 7:26:52 PM
+
+ERROR : More than 500 violations detected, DRC was stopped
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: Yes), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=9mil) (Max=9mil) (Preferred=9mil) (WithinRoom('eMMC') and InNetClass('POWER'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5.184mil) (Max=6.236mil) (Preferred=6.236mil) ((WithinRoom('AM335x') or WithinRoom('DDRAM') or WithinRoom('eMMC')) and not InNetClass('POWER'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5.184mil) (Max=6.236mil) (Preferred=6.236mil) (InNetClass('ETH_To_Connector') or InNetClass('ETH_To_Device') or InNetClass('ETH_To_Host'))
+   Violation between Width Constraint: Track (2692.598mil,3044.136mil)(2692.598mil,3109.136mil) on Top Layer 1 Actual Width = 22mil, Target Width = 6.236mil
+   Violation between Width Constraint: Track (2692.598mil,3109.136mil)(2706mil,3122.538mil) on Bottom Layer 1 Actual Width = 22mil, Target Width = 6.236mil
+   Violation between Width Constraint: Track (2706mil,3122.538mil)(2729.464mil,3122.538mil) on Bottom Layer 1 Actual Width = 22mil, Target Width = 6.236mil
+   Violation between Width Constraint: Track (2729.464mil,3122.538mil)(2730.276mil,3123.348mil) on Bottom Layer 1 Actual Width = 22mil, Target Width = 6.236mil
+   Violation between Width Constraint: Track (2730.276mil,3123.348mil)(2730.276mil,3124.136mil) on Bottom Layer 1 Actual Width = 22mil, Target Width = 6.236mil
+   Violation between Width Constraint: Track (5153.598mil,2015.812mil)(5156.552mil,2015.812mil) on Bottom Layer 1 Actual Width = 22mil, Target Width = 6.236mil
+   Violation between Width Constraint: Track (5156.552mil,2015.812mil)(5157.362mil,2015mil) on Bottom Layer 1 Actual Width = 22mil, Target Width = 6.236mil
+Rule Violations :7
+
+Processing Rule : Width Constraint (Min=12mil) (Max=12mil) (Preferred=12mil) (WithinRoom('AM335x') and InNetClass('POWER'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5.184mil) (Max=6.236mil) (Preferred=6.236mil) (InNetClass('eMMC_To_Device'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5.184mil) (Max=6.236mil) (Preferred=6.236mil) (InNetClass('DDR_A[15..0]') or InNetClass('DDR_BA[2..0]') or InNetClass('DDR_D[15..0]') or InNetClass('DDR_Data') or InNetClass('DDR_Control'))
+   Violation between Width Constraint: Track (4420mil,1825.812mil)(4430.512mil,1836.324mil) on Top Layer 1 Actual Width = 15mil, Target Width = 6.236mil
+   Violation between Width Constraint: Track (4420mil,1825mil)(4420mil,1825.812mil) on Top Layer 1 Actual Width = 15mil, Target Width = 6.236mil
+   Violation between Width Constraint: Track (4420mil,1825mil)(4445mil,1850mil) on Bottom Layer 1 Actual Width = 15mil, Target Width = 6.236mil
+   Violation between Width Constraint: Track (4430.512mil,1836.324mil)(4430.512mil,1848.78mil) on Top Layer 1 Actual Width = 15mil, Target Width = 6.236mil
+   Violation between Width Constraint: Track (4445mil,1850mil)(4479.724mil,1850mil) on Bottom Layer 1 Actual Width = 15mil, Target Width = 6.236mil
+Rule Violations :5
+
+Processing Rule : Width Constraint (Min=8mil) (Max=30mil) (Preferred=10mil) (InNetClass('POWER'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=6.485mil) (Max=7.635mil) (Preferred=7.635mil) (InNet('USB0_ID') or InNet('USB1_ID'))
+   Violation between Width Constraint: Track (3674.528mil,2522.48mil)(3690.276mil,2506.732mil) on Top Layer 1 Actual Width = 6.236mil, Target Width = 7.635mil
+Rule Violations :1
+
+Processing Rule : Width Constraint (Min=5.184mil) (Max=6.236mil) (Preferred=6.236mil) (InNetClass('uSD_To_Connector') or InNetClass('uSD_To_Host'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5.184mil) (Max=6.236mil) (Preferred=6.236mil) (InNetClass('I2C0') or InNetClass('SPI1') or InNetClass('HDMI_Connector_I2c'))
+Rule Violations :0
+
+Processing Rule : Routing Layers(All)
+Rule Violations :0
+
+Processing Rule : Routing Via (MinHoleWidth=8mil) (MaxHoleWidth=8mil) (PreferredHoleWidth=8mil) (MinWidth=18mil) (MaxWidth=18mil) (PreferedWidth=18mil) (WithinRoom('AM335x'))
+Rule Violations :0
+
+Processing Rule : Routing Via (MinHoleWidth=8mil) (MaxHoleWidth=8mil) (PreferredHoleWidth=8mil) (MinWidth=18mil) (MaxWidth=18mil) (PreferedWidth=18mil) (WithinRoom('DDRAM'))
+Rule Violations :0
+
+Processing Rule : Routing Via (MinHoleWidth=8mil) (MaxHoleWidth=8mil) (PreferredHoleWidth=8mil) (MinWidth=18mil) (MaxWidth=18mil) (PreferedWidth=18mil) (WithinRoom('eMMC'))
+Rule Violations :0
+
+Processing Rule : Routing Via (MinHoleWidth=10mil) (MaxHoleWidth=12mil) (PreferredHoleWidth=10mil) (MinWidth=12mil) (MaxWidth=12mil) (PreferedWidth=20mil) (All)
+   Violation between Routing Via Style: Via (1990mil,3325mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (2190mil,1445mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (2235mil,3340mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (2340mil,2955mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (2545mil,1885mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (2595mil,1785mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (2640mil,2955mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (2681.772mil,1252.48mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 175mil Actual Hole Size : 125mil
+   Violation between Routing Via Style: Via (2692.598mil,3109.136mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (2740mil,2635mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (2740mil,3290mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (2845mil,2470mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (2860mil,2245mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3055mil,1465mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3567.928mil,1527.65mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3674.528mil,2144.528mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3674.528mil,2207.52mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3674.528mil,2270.512mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3674.528mil,2585.472mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3706.024mil,2144.528mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3706.024mil,2207.52mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3706.024mil,2302.008mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3706.024mil,2522.48mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3706.394mil,2490mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3731.412mil,3198.544mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3737.52mil,2176.024mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3737.52mil,2396.496mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3769.016mil,2207.52mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3787.928mil,1527.65mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3800.512mil,2270.512mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3800.512mil,2333.504mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3800.512mil,2522.48mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3832.008mil,2144.528mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3832.928mil,1527.65mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3863.504mil,2176.024mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3863.504mil,2333.504mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3863.504mil,2396.496mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3863.504mil,2490.984mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3926.496mil,2270.512mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3926.496mil,2302.008mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3926.496mil,2585.472mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3970mil,1405mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3987.867mil,2240mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3989.488mil,2176.024mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (3989.488mil,2459.488mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (4020.984mil,2144.528mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (4052.48mil,2553.976mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (4083.976mil,2176.024mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (4083.976mil,2207.52mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (4083.976mil,2270.512mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (4083.976mil,2302.008mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (4083.976mil,2396.496mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (4083.976mil,2520mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (4083.976mil,2585.472mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (4115.472mil,2144.528mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (4115.472mil,2302.008mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (4115.472mil,2490.672mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (4115.472mil,2520mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (4115.472mil,2553.976mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (4120mil,1415mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (4178.464mil,2553.976mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (4375mil,2315mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (4478.486mil,3024.292mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (4478.486mil,3169.292mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (4480mil,1895mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (4515mil,2165mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (4585mil,3300mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (4670mil,2140mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (4670mil,2160mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (4690mil,2225mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (4755mil,3235mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (4940mil,3020mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (4995mil,2785mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (5008.548mil,3036.012mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (5095.95mil,3072.536mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (5217.512mil,3003.874mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+   Violation between Routing Via Style: Via (5219.38mil,3003.874mil) from Top Layer 1 to Bottom Layer 1 Actual Size : 18mil Actual Hole Size : 8mil
+Rule Violations :77
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=8mil) (Max=8mil) (Prefered=8mil)  and Width Constraints (Min=5.211mil) (Max=6.397mil) (Prefered=6.397mil) (InDifferentialPair('USB0') or InDifferentialPair('USB1'))
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=8mil) (Max=8mil) (Prefered=8mil)  and Width Constraints (Min=4.018mil) (Max=5.097mil) (Prefered=5.097mil) (InDifferentialPairClass('DDR_CLK') or InDifferentialPairClass('DDR_DQS0') or InDifferentialPairClass('DDR_DQS1'))
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=8mil) (Max=8mil) (Prefered=8mil)  and Width Constraints (Min=4.018mil) (Max=5.097mil) (Prefered=5.097mil) (InNetClass('HDMI_To_Connector'))
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=8mil) (Max=8mil) (Prefered=8mil)  and Width Constraints (Min=4.018mil) (Max=5.097mil) (Prefered=5.097mil) (InDifferentialPairClass('ETH_RX') or InDifferentialPairClass('ETH_TX'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Fabrication Testpoint Style (Under Component=Yes) (All)
+Rule Violations :0
+
+Processing Rule : Fabrication Testpoint Usage (Valid =One Required, Allow multiple per net=No) (All)
+Rule Violations :0
+
+Processing Rule : Assembly Testpoint Style (Under Component=Yes) (All)
+Rule Violations :0
+
+Processing Rule : Assembly Testpoint Usage (Valid =One Required, Allow multiple per net=No) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+Rule Violations :0
+
+Processing Rule : Pads and Vias to follow the Drill pairs settings
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Length Constraint (Min=0mil) (Max=100000mil) (All)
+Rule Violations :0
+
+Processing Rule : Length Constraint (Min=0mil) (Max=100000mil) (All)
+Rule Violations :0
+
+Processing Rule : Length Constraint (Min=0mil) (Max=100000mil) (All)
+Rule Violations :0
+
+Processing Rule : Length Constraint (Min=0mil) (Max=5000mil) (InNetClass('DDR_A[15..0]') or InNetClass('DDR_Data') or InNetClass('DDR_BA[2..0]') or InNetClass('DDR_D[15..0]'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Delay Tolerance=0ps) (InxSignalClass('ADDR_PP1'))
+   Violation between Matched Net Lengths: Between xSignal(DDR_A0_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A1_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A10_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A11_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A12_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A13_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A14_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A15_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A2_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A3_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A4_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A5_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A6_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A7_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A8_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A9_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_BA0_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_BA1_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_BA2_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CASn_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_N_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 5.516ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_CSn_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_ODT_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_RASn_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_WEn_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 0ps.
+Rule Violations :25
+
+Processing Rule : Matched Lengths(Delay Tolerance=0ps) (InxSignalClass('DATA_BL0'))
+   Violation between Matched Net Lengths: Between xSignal(DDR_D0_BL0) And xSignal(DDR_D1_BL0) Actual Delay Difference against xSignal DDR_D1_BL0 is: 12.387ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_D1_BL0) And xSignal(DDR_D2_BL0) Actual Delay Difference against xSignal DDR_D1_BL0 is: 23.856ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_D1_BL0) And xSignal(DDR_D3_BL0) Actual Delay Difference against xSignal DDR_D1_BL0 is: 19.495ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_D1_BL0) And xSignal(DDR_D4_BL0) Actual Delay Difference against xSignal DDR_D1_BL0 is: 32.338ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_D1_BL0) And xSignal(DDR_D5_BL0) Actual Delay Difference against xSignal DDR_D1_BL0 is: 10.583ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_D1_BL0) And xSignal(DDR_D6_BL0) Actual Delay Difference against xSignal DDR_D1_BL0 is: 19.659ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_D1_BL0) And xSignal(DDR_D7_BL0) Actual Delay Difference against xSignal DDR_D1_BL0 is: 32.548ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_D1_BL0) And xSignal(DDR_DQM0_BL0) Actual Delay Difference against xSignal DDR_D1_BL0 is: 32.706ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_D1_BL0) And xSignal(DDR_DQS0_N_BL0) Actual Delay Difference against xSignal DDR_D1_BL0 is: 23.206ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_D1_BL0) And xSignal(DDR_DQS0_P_BL0) Actual Delay Difference against xSignal DDR_D1_BL0 is: 28.722ps, Delay Tolerance : 0ps.
+Rule Violations :10
+
+Processing Rule : Matched Lengths(Delay Tolerance=2ps) (InDifferentialPairClass('HDMI_TX0') and InDifferentialPairClass('HDMI_TX1') and InDifferentialPairClass('HDMI_TX2') and InDifferentialPairClass('HDMI_TXC'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Delay Tolerance=2ps) (InNetClass('ETH_To_Connector'))
+   Violation between Matched Net Lengths: Between Net RX_P And Net TX_P Delay:104.218ps is not within 2ps tolerance of Delay:118.649ps (12.431ps smaller) 
+Rule Violations :1
+
+Processing Rule : Matched Lengths(Delay Tolerance=2ps) (InNetClass('uSD_To_Host'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Delay Tolerance=2ps) (InNetClass('eMMC_To_Device'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Delay Tolerance=2ps) (InNetClass('HDMI_Connector_I2c'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Delay Tolerance=2ps) (InNetClass('HDMI_To_Connector'))
+   Violation between Matched Net Lengths: Between Net HDMI_TX0_P And Net HDMI_TX1_P Delay:134.396ps is not within 2ps tolerance of Delay:331.736ps (195.34ps smaller) 
+Rule Violations :1
+
+Processing Rule : Matched Lengths(Delay Tolerance=0ps) (InxSignalClass('DATA_BL1'))
+   Violation between Matched Net Lengths: Between xSignal(DDR_D10_BL1) And xSignal(DDR_DQS1_N_BL1) Actual Delay Difference against xSignal DDR_DQS1_N_BL1 is: 46.686ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_D11_BL1) And xSignal(DDR_DQS1_N_BL1) Actual Delay Difference against xSignal DDR_DQS1_N_BL1 is: 58.506ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_D12_BL1) And xSignal(DDR_DQS1_N_BL1) Actual Delay Difference against xSignal DDR_DQS1_N_BL1 is: 76.663ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_D13_BL1) And xSignal(DDR_DQS1_N_BL1) Actual Delay Difference against xSignal DDR_DQS1_N_BL1 is: 64.136ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_D14_BL1) And xSignal(DDR_DQS1_N_BL1) Actual Delay Difference against xSignal DDR_DQS1_N_BL1 is: 66.433ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_D15_BL1) And xSignal(DDR_DQS1_N_BL1) Actual Delay Difference against xSignal DDR_DQS1_N_BL1 is: 76.781ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_D8_BL1) And xSignal(DDR_DQS1_N_BL1) Actual Delay Difference against xSignal DDR_DQS1_N_BL1 is: 75.16ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_D9_BL1) And xSignal(DDR_DQS1_N_BL1) Actual Delay Difference against xSignal DDR_DQS1_N_BL1 is: 84.183ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_DQM1_BL1) And xSignal(DDR_DQS1_N_BL1) Actual Delay Difference against xSignal DDR_DQS1_N_BL1 is: 84.183ps, Delay Tolerance : 0ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_DQS1_N_BL1) And xSignal(DDR_DQS1_P_BL1) Actual Delay Difference against xSignal DDR_DQS1_N_BL1 is: 5.096ps, Delay Tolerance : 0ps.
+Rule Violations :10
+
+Processing Rule : Matched Lengths(Delay Tolerance=0ps) (InxSignalClass('ADDR_PP1') OR InxSignalClass('DATA_BL0') OR InxSignalClass('DATA_BL1'))
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_N_PP1) And xSignal(DDR_CLK_P_PP1) Actual Difference against DDR_CLK_P_PP1 is: 5.516ps, Delay Tolerance : 0ps. 
+   Violation between Matched Net Lengths: Between xSignal(DDR_DQS0_N_BL0) And xSignal(DDR_DQS0_P_BL0) Actual Difference against DDR_DQS0_P_BL0 is: 5.516ps, Delay Tolerance : 0ps. 
+   Violation between Matched Net Lengths: Between xSignal(DDR_DQS1_N_BL1) And xSignal(DDR_DQS1_P_BL1) Actual Difference against DDR_DQS1_P_BL1 is: 5.096ps, Delay Tolerance : 0ps. 
+Rule Violations :3
+
+Processing Rule : Matched Lengths(Delay Tolerance=2ps) (InxSignalClass('ADDR_PP1') or InxSignalClass('DATA_BL0') or InxSignalClass('DATA_BL1'))
+   Violation between Matched Net Lengths: Between xSignal(DDR_A0_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A1_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A10_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A11_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A12_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A13_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A14_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A15_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A2_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A3_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A4_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A5_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A6_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A7_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A8_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A9_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_BA0_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_BA1_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_BA2_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CASn_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_N_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 5.516ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_CSn_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D0_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 138.178ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D1_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 125.791ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D10_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 124.11ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D11_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 135.929ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D12_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 154.087ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D13_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 141.56ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D14_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 143.857ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D15_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 154.205ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D2_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 149.647ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D3_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 145.285ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D4_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 158.128ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D5_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 136.374ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D6_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 145.449ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D7_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 158.339ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D8_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 152.583ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D9_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_DQM0_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 158.497ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_DQM1_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_DQS0_N_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 148.997ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_DQS0_P_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 154.512ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_DQS1_N_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 77.424ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_DQS1_P_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 82.519ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_ODT_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_RASn_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_WEn_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+Rule Violations :47
+
+Processing Rule : Matched Lengths(Delay Tolerance=10ps) (InNetClass('I2C0') or InNetClass('SPI1'))
+   Violation between Matched Net Lengths: Between Net I2C0_SCL And Net SPI1_SCLK Delay:0ps is not within 10ps tolerance of Delay:10.194ps (0.194ps smaller) 
+Rule Violations :1
+
+Processing Rule : Matched Lengths(Delay Tolerance=2ps) (All)
+   Violation between Matched Net Lengths: Differential Pair DDR_DQS1 Actual Delay Difference against diff pair HDMI_TX0 is: 180.889ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Differential Pair HDMI_TX1 Actual Delay Difference against diff pair HDMI_TX0 is: 124.978ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Differential Pair TX Actual Delay Difference against diff pair HDMI_TX0 is: 165.159ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Differential Pair USB1 Actual Delay Difference against diff pair HDMI_TX0 is: 236.018ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between Net +5 And Net GND Delay:756.827ps is not within 2ps tolerance of Delay:3154.048ps (2395.221ps smaller) 
+   Violation between Matched Net Lengths: Between Net AM3_MMC1_DAT7 And Net GND Delay:3.478ps is not within 2ps tolerance of Delay:3154.048ps (3148.57ps smaller) 
+   Violation between Matched Net Lengths: Between Net B_UART0_TX And Net GND Delay:34.539ps is not within 2ps tolerance of Delay:3154.048ps (3117.51ps smaller) 
+   Violation between Matched Net Lengths: Between Net CLKOUT_SRC And Net GND Delay:3.478ps is not within 2ps tolerance of Delay:3154.048ps (3148.57ps smaller) 
+   Violation between Matched Net Lengths: Between Net CLKOUT2 And Net GND Delay:17.555ps is not within 2ps tolerance of Delay:3154.048ps (3134.493ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_A1 And Net GND Delay:8.257ps is not within 2ps tolerance of Delay:3154.048ps (3143.792ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_A15 And Net GND Delay:20.444ps is not within 2ps tolerance of Delay:3154.048ps (3131.604ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_A3 And Net GND Delay:22.81ps is not within 2ps tolerance of Delay:3154.048ps (3129.239ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_A4 And Net GND Delay:11.601ps is not within 2ps tolerance of Delay:3154.048ps (3140.447ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_A6 And Net GND Delay:30.276ps is not within 2ps tolerance of Delay:3154.048ps (3121.773ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_A8 And Net GND Delay:22.853ps is not within 2ps tolerance of Delay:3154.048ps (3129.195ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_BA0 And Net GND Delay:10.584ps is not within 2ps tolerance of Delay:3154.048ps (3141.464ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_BA2 And Net GND Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_CLK_N And Net GND Delay:156.091ps is not within 2ps tolerance of Delay:3154.048ps (2995.958ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_CSn And Net GND Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_D0 And Net GND Delay:23.428ps is not within 2ps tolerance of Delay:3154.048ps (3128.62ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_D10 And Net GND Delay:37.497ps is not within 2ps tolerance of Delay:3154.048ps (3114.552ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_D12 And Net GND Delay:7.52ps is not within 2ps tolerance of Delay:3154.048ps (3144.529ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_D2 And Net GND Delay:11.96ps is not within 2ps tolerance of Delay:3154.048ps (3140.089ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_D7 And Net GND Delay:3.268ps is not within 2ps tolerance of Delay:3154.048ps (3148.781ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_DQM0 And Net GND Delay:3.11ps is not within 2ps tolerance of Delay:3154.048ps (3148.939ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_DQS0_N And Net GND Delay:12.61ps is not within 2ps tolerance of Delay:3154.048ps (3139.438ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_DQS0_P And Net GND Delay:7.094ps is not within 2ps tolerance of Delay:3154.048ps (3144.954ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_DQS1_N And Net GND Delay:84.183ps is not within 2ps tolerance of Delay:3154.048ps (3067.866ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_DQS1_P And Net GND Delay:79.087ps is not within 2ps tolerance of Delay:3154.048ps (3072.961ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_ODT And Net GND Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_RASn And Net GND Delay:18.477ps is not within 2ps tolerance of Delay:3154.048ps (3133.572ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_WEn And Net GND Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net eMMC_CMD And Net GND Delay:2.817ps is not within 2ps tolerance of Delay:3154.048ps (3149.231ps smaller) 
+   Violation between Matched Net Lengths: Between Net ENZ_KALDO_1P8V And Net GND Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net ETH_RST_GPIO1_8 And Net GND Delay:8.399ps is not within 2ps tolerance of Delay:3154.048ps (3143.65ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net GND_OSC1 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net GPIO3_21 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net HDMI_DSDA Delay:135.977ps is not within 2ps tolerance of Delay:3154.048ps (3016.072ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net HDMI_TX1_P Delay:134.396ps is not within 2ps tolerance of Delay:3154.048ps (3017.652ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net I2C2_SCL Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net JTAG_TDI Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net JTAG_TDO Delay:14.291ps is not within 2ps tolerance of Delay:3154.048ps (3137.757ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net LCD_DATA0 Delay:3.478ps is not within 2ps tolerance of Delay:3154.048ps (3148.57ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net LCD_DATA11 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net LCD_DATA12 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net LCD_DATA13 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net LCD_DATA14 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net LCD_DATA15 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net LCD_DATA2 Delay:3.478ps is not within 2ps tolerance of Delay:3154.048ps (3148.57ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net LCD_DATA4 Delay:0.314ps is not within 2ps tolerance of Delay:3154.048ps (3151.735ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net LCD_DATA5 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net MDIO_CLK Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net MII1_CRS_DV Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net MII1_RXD1 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net MII1_RXD3 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net MII1_TXD0 Delay:4.364ps is not within 2ps tolerance of Delay:3154.048ps (3147.684ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net MMC1_DATA0 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net MMC1_DATA4 Delay:4.348ps is not within 2ps tolerance of Delay:3154.048ps (3147.701ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net MODE2 Delay:21.527ps is not within 2ps tolerance of Delay:3154.048ps (3130.521ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net NetAM335x_D11 Delay:3.478ps is not within 2ps tolerance of Delay:3154.048ps (3148.57ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net NetAM335x_D9 Delay:3.478ps is not within 2ps tolerance of Delay:3154.048ps (3148.57ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net NetAM335x_U5 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net NetC60_2 Delay:30.236ps is not within 2ps tolerance of Delay:3154.048ps (3121.813ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net NetD3_1 Delay:10.017ps is not within 2ps tolerance of Delay:3154.048ps (3142.032ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net NetD4_2 Delay:59.051ps is not within 2ps tolerance of Delay:3154.048ps (3092.997ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net NetD6_2 Delay:26.324ps is not within 2ps tolerance of Delay:3154.048ps (3125.724ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net NetR14_2 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net NetR32_2 Delay:8.706ps is not within 2ps tolerance of Delay:3154.048ps (3143.342ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net NetU1_4 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net OSC0_IN Delay:44.479ps is not within 2ps tolerance of Delay:3154.048ps (3107.569ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net PHY_XTAL2 Delay:15.137ps is not within 2ps tolerance of Delay:3154.048ps (3136.911ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net PMIC_PGOOD Delay:22.376ps is not within 2ps tolerance of Delay:3154.048ps (3129.672ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net PWR_LEDR Delay:9.596ps is not within 2ps tolerance of Delay:3154.048ps (3142.452ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net RBIAS Delay:17.717ps is not within 2ps tolerance of Delay:3154.048ps (3134.331ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net RX_P Delay:104.218ps is not within 2ps tolerance of Delay:3154.048ps (3047.83ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net RXD2/RMIISEL Delay:22.758ps is not within 2ps tolerance of Delay:3154.048ps (3129.291ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net RXD3/PHYAD2 Delay:27.525ps is not within 2ps tolerance of Delay:3154.048ps (3124.523ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net RXER/PHYAD0 Delay:18.293ps is not within 2ps tolerance of Delay:3154.048ps (3133.756ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net SD_CLK Delay:15.298ps is not within 2ps tolerance of Delay:3154.048ps (3136.75ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net SD_DAT0 Delay:14.481ps is not within 2ps tolerance of Delay:3154.048ps (3137.567ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net SD_DAT2 Delay:14.815ps is not within 2ps tolerance of Delay:3154.048ps (3137.234ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net SD_DAT3 Delay:14.512ps is not within 2ps tolerance of Delay:3154.048ps (3137.536ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net SPI1_SCLK Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net SYS_RESETn Delay:62.484ps is not within 2ps tolerance of Delay:3154.048ps (3089.564ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net TIMER7 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net TX_P Delay:118.649ps is not within 2ps tolerance of Delay:3154.048ps (3033.399ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net UART0_TX Delay:3.478ps is not within 2ps tolerance of Delay:3154.048ps (3148.57ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net UART2_TXD Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net USB0_N Delay:22.919ps is not within 2ps tolerance of Delay:3154.048ps (3129.129ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net USB0_P Delay:1.595ps is not within 2ps tolerance of Delay:3154.048ps (3150.453ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net USB1_DRVVBUS Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net USB1_VBUS Delay:34.498ps is not within 2ps tolerance of Delay:3154.048ps (3117.551ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net USR0 Delay:19.147ps is not within 2ps tolerance of Delay:3154.048ps (3132.902ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net USR1 Delay:16.63ps is not within 2ps tolerance of Delay:3154.048ps (3135.418ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net VDCDC1 Delay:400.806ps is not within 2ps tolerance of Delay:3154.048ps (2751.242ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net VDCDC2 Delay:82.131ps is not within 2ps tolerance of Delay:3154.048ps (3069.918ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net VDD_3V3B Delay:580.404ps is not within 2ps tolerance of Delay:3154.048ps (2571.644ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net VDD_RTC Delay:3.478ps is not within 2ps tolerance of Delay:3154.048ps (3148.57ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net VIN_5V Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net VREFN_ADC Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net VTRC Delay:122.98ps is not within 2ps tolerance of Delay:3154.048ps (3029.069ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net XDMA_EVENT_INTR0 Delay:14.368ps is not within 2ps tolerance of Delay:3154.048ps (3137.68ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net YEL_C Delay:29.587ps is not within 2ps tolerance of Delay:3154.048ps (3122.461ps smaller) 
+   Violation between Matched Net Lengths: Between xSignal(DDR_A0_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A1_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A10_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A11_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A12_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A13_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A14_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A15_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A2_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A3_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A4_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A5_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A6_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A7_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A8_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A9_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_BA0_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_BA1_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_BA2_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CASn_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_N_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 5.516ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_CSn_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D0_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 138.178ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D1_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 125.791ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D10_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 124.11ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D11_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 135.929ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D12_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 154.087ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D13_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 141.56ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D14_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 143.857ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D15_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 154.205ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D2_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 149.647ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D3_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 145.285ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D4_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 158.128ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D5_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 136.374ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D6_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 145.449ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D7_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 158.339ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D8_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 152.583ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D9_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_DQM0_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 158.497ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_DQM1_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_DQS0_N_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 148.997ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_DQS0_P_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 154.512ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_DQS1_N_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 77.424ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_DQS1_P_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 82.519ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_ODT_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_RASn_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_WEn_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+Rule Violations :150
+
+Processing Rule : Matched Lengths(Delay Tolerance=2ps) (All)
+   Violation between Matched Net Lengths: Differential Pair DDR_DQS1 Actual Delay Difference against diff pair HDMI_TX0 is: 180.889ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Differential Pair HDMI_TX1 Actual Delay Difference against diff pair HDMI_TX0 is: 124.978ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Differential Pair TX Actual Delay Difference against diff pair HDMI_TX0 is: 165.159ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Differential Pair USB1 Actual Delay Difference against diff pair HDMI_TX0 is: 236.018ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between Net +5 And Net GND Delay:756.827ps is not within 2ps tolerance of Delay:3154.048ps (2395.221ps smaller) 
+   Violation between Matched Net Lengths: Between Net AM3_MMC1_DAT7 And Net GND Delay:3.478ps is not within 2ps tolerance of Delay:3154.048ps (3148.57ps smaller) 
+   Violation between Matched Net Lengths: Between Net B_UART0_TX And Net GND Delay:34.539ps is not within 2ps tolerance of Delay:3154.048ps (3117.51ps smaller) 
+   Violation between Matched Net Lengths: Between Net CLKOUT_SRC And Net GND Delay:3.478ps is not within 2ps tolerance of Delay:3154.048ps (3148.57ps smaller) 
+   Violation between Matched Net Lengths: Between Net CLKOUT2 And Net GND Delay:17.555ps is not within 2ps tolerance of Delay:3154.048ps (3134.493ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_A1 And Net GND Delay:8.257ps is not within 2ps tolerance of Delay:3154.048ps (3143.792ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_A15 And Net GND Delay:20.444ps is not within 2ps tolerance of Delay:3154.048ps (3131.604ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_A3 And Net GND Delay:22.81ps is not within 2ps tolerance of Delay:3154.048ps (3129.239ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_A4 And Net GND Delay:11.601ps is not within 2ps tolerance of Delay:3154.048ps (3140.447ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_A6 And Net GND Delay:30.276ps is not within 2ps tolerance of Delay:3154.048ps (3121.773ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_A8 And Net GND Delay:22.853ps is not within 2ps tolerance of Delay:3154.048ps (3129.195ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_BA0 And Net GND Delay:10.584ps is not within 2ps tolerance of Delay:3154.048ps (3141.464ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_BA2 And Net GND Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_CLK_N And Net GND Delay:156.091ps is not within 2ps tolerance of Delay:3154.048ps (2995.958ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_CSn And Net GND Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_D0 And Net GND Delay:23.428ps is not within 2ps tolerance of Delay:3154.048ps (3128.62ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_D10 And Net GND Delay:37.497ps is not within 2ps tolerance of Delay:3154.048ps (3114.552ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_D12 And Net GND Delay:7.52ps is not within 2ps tolerance of Delay:3154.048ps (3144.529ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_D2 And Net GND Delay:11.96ps is not within 2ps tolerance of Delay:3154.048ps (3140.089ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_D7 And Net GND Delay:3.268ps is not within 2ps tolerance of Delay:3154.048ps (3148.781ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_DQM0 And Net GND Delay:3.11ps is not within 2ps tolerance of Delay:3154.048ps (3148.939ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_DQS0_N And Net GND Delay:12.61ps is not within 2ps tolerance of Delay:3154.048ps (3139.438ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_DQS0_P And Net GND Delay:7.094ps is not within 2ps tolerance of Delay:3154.048ps (3144.954ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_DQS1_N And Net GND Delay:84.183ps is not within 2ps tolerance of Delay:3154.048ps (3067.866ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_DQS1_P And Net GND Delay:79.087ps is not within 2ps tolerance of Delay:3154.048ps (3072.961ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_ODT And Net GND Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_RASn And Net GND Delay:18.477ps is not within 2ps tolerance of Delay:3154.048ps (3133.572ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_WEn And Net GND Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net eMMC_CMD And Net GND Delay:2.817ps is not within 2ps tolerance of Delay:3154.048ps (3149.231ps smaller) 
+   Violation between Matched Net Lengths: Between Net ENZ_KALDO_1P8V And Net GND Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net ETH_RST_GPIO1_8 And Net GND Delay:8.399ps is not within 2ps tolerance of Delay:3154.048ps (3143.65ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net GND_OSC1 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net GPIO3_21 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net HDMI_DSDA Delay:135.977ps is not within 2ps tolerance of Delay:3154.048ps (3016.072ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net HDMI_TX1_P Delay:134.396ps is not within 2ps tolerance of Delay:3154.048ps (3017.652ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net I2C2_SCL Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net JTAG_TDI Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net JTAG_TDO Delay:14.291ps is not within 2ps tolerance of Delay:3154.048ps (3137.757ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net LCD_DATA0 Delay:3.478ps is not within 2ps tolerance of Delay:3154.048ps (3148.57ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net LCD_DATA11 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net LCD_DATA12 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net LCD_DATA13 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net LCD_DATA14 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net LCD_DATA15 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net LCD_DATA2 Delay:3.478ps is not within 2ps tolerance of Delay:3154.048ps (3148.57ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net LCD_DATA4 Delay:0.314ps is not within 2ps tolerance of Delay:3154.048ps (3151.735ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net LCD_DATA5 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net MDIO_CLK Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net MII1_CRS_DV Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net MII1_RXD1 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net MII1_RXD3 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net MII1_TXD0 Delay:4.364ps is not within 2ps tolerance of Delay:3154.048ps (3147.684ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net MMC1_DATA0 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net MMC1_DATA4 Delay:4.348ps is not within 2ps tolerance of Delay:3154.048ps (3147.701ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net MODE2 Delay:21.527ps is not within 2ps tolerance of Delay:3154.048ps (3130.521ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net NetAM335x_D11 Delay:3.478ps is not within 2ps tolerance of Delay:3154.048ps (3148.57ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net NetAM335x_D9 Delay:3.478ps is not within 2ps tolerance of Delay:3154.048ps (3148.57ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net NetAM335x_U5 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net NetC60_2 Delay:30.236ps is not within 2ps tolerance of Delay:3154.048ps (3121.813ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net NetD3_1 Delay:10.017ps is not within 2ps tolerance of Delay:3154.048ps (3142.032ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net NetD4_2 Delay:59.051ps is not within 2ps tolerance of Delay:3154.048ps (3092.997ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net NetD6_2 Delay:26.324ps is not within 2ps tolerance of Delay:3154.048ps (3125.724ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net NetR14_2 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net NetR32_2 Delay:8.706ps is not within 2ps tolerance of Delay:3154.048ps (3143.342ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net NetU1_4 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net OSC0_IN Delay:44.479ps is not within 2ps tolerance of Delay:3154.048ps (3107.569ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net PHY_XTAL2 Delay:15.137ps is not within 2ps tolerance of Delay:3154.048ps (3136.911ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net PMIC_PGOOD Delay:22.376ps is not within 2ps tolerance of Delay:3154.048ps (3129.672ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net PWR_LEDR Delay:9.596ps is not within 2ps tolerance of Delay:3154.048ps (3142.452ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net RBIAS Delay:17.717ps is not within 2ps tolerance of Delay:3154.048ps (3134.331ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net RX_P Delay:104.218ps is not within 2ps tolerance of Delay:3154.048ps (3047.83ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net RXD2/RMIISEL Delay:22.758ps is not within 2ps tolerance of Delay:3154.048ps (3129.291ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net RXD3/PHYAD2 Delay:27.525ps is not within 2ps tolerance of Delay:3154.048ps (3124.523ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net RXER/PHYAD0 Delay:18.293ps is not within 2ps tolerance of Delay:3154.048ps (3133.756ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net SD_CLK Delay:15.298ps is not within 2ps tolerance of Delay:3154.048ps (3136.75ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net SD_DAT0 Delay:14.481ps is not within 2ps tolerance of Delay:3154.048ps (3137.567ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net SD_DAT2 Delay:14.815ps is not within 2ps tolerance of Delay:3154.048ps (3137.234ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net SD_DAT3 Delay:14.512ps is not within 2ps tolerance of Delay:3154.048ps (3137.536ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net SPI1_SCLK Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net SYS_RESETn Delay:62.484ps is not within 2ps tolerance of Delay:3154.048ps (3089.564ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net TIMER7 Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net TX_P Delay:118.649ps is not within 2ps tolerance of Delay:3154.048ps (3033.399ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net UART0_TX Delay:3.478ps is not within 2ps tolerance of Delay:3154.048ps (3148.57ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net UART2_TXD Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net USB0_N Delay:22.919ps is not within 2ps tolerance of Delay:3154.048ps (3129.129ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net USB0_P Delay:1.595ps is not within 2ps tolerance of Delay:3154.048ps (3150.453ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net USB1_DRVVBUS Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net USB1_VBUS Delay:34.498ps is not within 2ps tolerance of Delay:3154.048ps (3117.551ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net USR0 Delay:19.147ps is not within 2ps tolerance of Delay:3154.048ps (3132.902ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net USR1 Delay:16.63ps is not within 2ps tolerance of Delay:3154.048ps (3135.418ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net VDCDC1 Delay:400.806ps is not within 2ps tolerance of Delay:3154.048ps (2751.242ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net VDCDC2 Delay:82.131ps is not within 2ps tolerance of Delay:3154.048ps (3069.918ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net VDD_3V3B Delay:580.404ps is not within 2ps tolerance of Delay:3154.048ps (2571.644ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net VDD_RTC Delay:3.478ps is not within 2ps tolerance of Delay:3154.048ps (3148.57ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net VIN_5V Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net VREFN_ADC Delay:0ps is not within 2ps tolerance of Delay:3154.048ps (3152.048ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net VTRC Delay:122.98ps is not within 2ps tolerance of Delay:3154.048ps (3029.069ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net XDMA_EVENT_INTR0 Delay:14.368ps is not within 2ps tolerance of Delay:3154.048ps (3137.68ps smaller) 
+   Violation between Matched Net Lengths: Between Net GND And Net YEL_C Delay:29.587ps is not within 2ps tolerance of Delay:3154.048ps (3122.461ps smaller) 
+   Violation between Matched Net Lengths: Between xSignal(DDR_A0_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A1_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A10_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A11_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A12_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A13_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A14_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A15_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A2_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A3_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A4_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A5_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A6_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A7_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A8_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_A9_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_BA0_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_BA1_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_BA2_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CASn_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_N_PP1) And xSignal(DDR_CLK_P_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 5.516ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_CSn_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D0_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 138.178ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D1_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 125.791ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D10_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 124.11ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D11_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 135.929ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D12_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 154.087ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D13_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 141.56ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D14_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 143.857ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D15_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 154.205ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D2_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 149.647ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D3_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 145.285ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D4_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 158.128ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D5_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 136.374ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D6_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 145.449ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D7_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 158.339ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D8_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 152.583ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_D9_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_DQM0_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 158.497ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_DQM1_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_DQS0_N_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 148.997ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_DQS0_P_BL0) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 154.512ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_DQS1_N_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 77.424ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_DQS1_P_BL1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 82.519ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_ODT_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_RASn_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+   Violation between Matched Net Lengths: Between xSignal(DDR_CLK_P_PP1) And xSignal(DDR_WEn_PP1) Actual Delay Difference against xSignal DDR_CLK_P_PP1 is: 161.606ps, Delay Tolerance : 2ps.
+Rule Violations :150
+
+Processing Rule : Matched Lengths(Delay Tolerance=2ps) (InNetClass('DDR_A[15..0]') or InNetClass('DDR_Data') or InNetClass('DDR_BA[2..0]') or InNetClass('DDR_D[15..0]'))
+   Violation between Matched Net Lengths: Between Net DDR_A1 And Net DDR_D10 Delay:8.257ps is not within 2ps tolerance of Delay:37.497ps (27.24ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_A15 And Net DDR_D10 Delay:20.444ps is not within 2ps tolerance of Delay:37.497ps (15.052ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_A3 And Net DDR_D10 Delay:22.81ps is not within 2ps tolerance of Delay:37.497ps (12.687ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_A4 And Net DDR_D10 Delay:11.601ps is not within 2ps tolerance of Delay:37.497ps (23.895ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_A6 And Net DDR_D10 Delay:30.276ps is not within 2ps tolerance of Delay:37.497ps (5.221ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_A8 And Net DDR_D10 Delay:22.853ps is not within 2ps tolerance of Delay:37.497ps (12.643ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_BA0 And Net DDR_D10 Delay:10.584ps is not within 2ps tolerance of Delay:37.497ps (24.912ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_BA2 And Net DDR_D10 Delay:0ps is not within 2ps tolerance of Delay:37.497ps (35.497ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_D0 And Net DDR_D10 Delay:23.428ps is not within 2ps tolerance of Delay:37.497ps (12.068ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_D10 And Net DDR_D12 Delay:7.52ps is not within 2ps tolerance of Delay:37.497ps (27.977ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_D10 And Net DDR_D2 Delay:11.96ps is not within 2ps tolerance of Delay:37.497ps (23.537ps smaller) 
+   Violation between Matched Net Lengths: Between Net DDR_D10 And Net DDR_D7 Delay:3.268ps is not within 2ps tolerance of Delay:37.497ps (32.229ps smaller) 
+Rule Violations :12
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 10mil, Vertical Gap = 10mil ) (All),(All) 
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mil, Vertical Gap = 0mil ) (InComponent('UART to TLL')),(InComponent('Expansion')) 
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mil, Vertical Gap = 0mil ) (InComponent('J2')),(All) 
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+PCB Health Issue Category : Micro-Segments (Board)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3036.303mil,2460.847mil) P2(3036.303mil,2460.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3041.871mil,2455.28mil) P2(3041.871mil,2455.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3005.303mil,2460.847mil) P2(3005.303mil,2460.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3010.871mil,2455.28mil) P2(3010.871mil,2455.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3022.861mil,2455.28mil) P2(3022.861mil,2455.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3028.429mil,2460.847mil) P2(3028.429mil,2460.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2974.303mil,2460.847mil) P2(2974.303mil,2460.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2979.871mil,2455.28mil) P2(2979.871mil,2455.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2991.861mil,2455.28mil) P2(2991.861mil,2455.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2997.429mil,2460.847mil) P2(2997.429mil,2460.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2943.303mil,2460.847mil) P2(2943.303mil,2460.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2948.871mil,2455.28mil) P2(2948.871mil,2455.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2960.861mil,2455.28mil) P2(2960.861mil,2455.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2966.429mil,2460.847mil) P2(2966.429mil,2460.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2929.861mil,2455.28mil) P2(2929.861mil,2455.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2935.429mil,2460.847mil) P2(2935.429mil,2460.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3036.303mil,2429.847mil) P2(3036.303mil,2429.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3041.871mil,2424.28mil) P2(3041.871mil,2424.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3041.871mil,2447.405mil) P2(3041.871mil,2447.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3036.303mil,2441.838mil) P2(3036.303mil,2441.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3005.303mil,2429.847mil) P2(3005.303mil,2429.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3010.871mil,2424.28mil) P2(3010.871mil,2424.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3022.861mil,2424.28mil) P2(3022.861mil,2424.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3028.429mil,2429.847mil) P2(3028.429mil,2429.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3028.429mil,2441.838mil) P2(3028.429mil,2441.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3022.861mil,2447.405mil) P2(3022.861mil,2447.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3010.871mil,2447.405mil) P2(3010.871mil,2447.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3005.303mil,2441.838mil) P2(3005.303mil,2441.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2974.303mil,2429.847mil) P2(2974.303mil,2429.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2979.871mil,2424.28mil) P2(2979.871mil,2424.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2991.861mil,2424.28mil) P2(2991.861mil,2424.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2997.429mil,2429.847mil) P2(2997.429mil,2429.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2997.429mil,2441.838mil) P2(2997.429mil,2441.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2991.861mil,2447.405mil) P2(2991.861mil,2447.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2979.871mil,2447.405mil) P2(2979.871mil,2447.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2974.303mil,2441.838mil) P2(2974.303mil,2441.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2943.303mil,2429.847mil) P2(2943.303mil,2429.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2948.871mil,2424.28mil) P2(2948.871mil,2424.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2960.861mil,2424.28mil) P2(2960.861mil,2424.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2966.429mil,2429.847mil) P2(2966.429mil,2429.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2966.429mil,2441.838mil) P2(2966.429mil,2441.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2960.861mil,2447.405mil) P2(2960.861mil,2447.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2948.871mil,2447.405mil) P2(2948.871mil,2447.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2943.303mil,2441.838mil) P2(2943.303mil,2441.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2929.861mil,2424.28mil) P2(2929.861mil,2424.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2935.429mil,2429.847mil) P2(2935.429mil,2429.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2935.429mil,2441.838mil) P2(2935.429mil,2441.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2929.861mil,2447.405mil) P2(2929.861mil,2447.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3036.303mil,2398.847mil) P2(3036.303mil,2398.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3041.871mil,2393.28mil) P2(3041.871mil,2393.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3041.871mil,2416.405mil) P2(3041.871mil,2416.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3036.303mil,2410.838mil) P2(3036.303mil,2410.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3005.303mil,2398.847mil) P2(3005.303mil,2398.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3010.871mil,2393.28mil) P2(3010.871mil,2393.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3022.861mil,2393.28mil) P2(3022.861mil,2393.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3028.429mil,2398.847mil) P2(3028.429mil,2398.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3028.429mil,2410.838mil) P2(3028.429mil,2410.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3022.861mil,2416.405mil) P2(3022.861mil,2416.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3010.871mil,2416.405mil) P2(3010.871mil,2416.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3005.303mil,2410.838mil) P2(3005.303mil,2410.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2974.303mil,2398.847mil) P2(2974.303mil,2398.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2979.871mil,2393.28mil) P2(2979.871mil,2393.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2991.861mil,2393.28mil) P2(2991.861mil,2393.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2997.429mil,2398.847mil) P2(2997.429mil,2398.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2997.429mil,2410.838mil) P2(2997.429mil,2410.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2991.861mil,2416.405mil) P2(2991.861mil,2416.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2979.871mil,2416.405mil) P2(2979.871mil,2416.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2974.303mil,2410.838mil) P2(2974.303mil,2410.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2943.303mil,2398.847mil) P2(2943.303mil,2398.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2948.871mil,2393.28mil) P2(2948.871mil,2393.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2960.861mil,2393.28mil) P2(2960.861mil,2393.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2966.429mil,2398.847mil) P2(2966.429mil,2398.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2966.429mil,2410.838mil) P2(2966.429mil,2410.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2960.861mil,2416.405mil) P2(2960.861mil,2416.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2948.871mil,2416.405mil) P2(2948.871mil,2416.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2943.303mil,2410.838mil) P2(2943.303mil,2410.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2929.861mil,2393.28mil) P2(2929.861mil,2393.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2935.429mil,2398.847mil) P2(2935.429mil,2398.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2935.429mil,2410.838mil) P2(2935.429mil,2410.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2929.861mil,2416.405mil) P2(2929.861mil,2416.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3036.303mil,2367.847mil) P2(3036.303mil,2367.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3041.871mil,2362.28mil) P2(3041.871mil,2362.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3041.871mil,2385.405mil) P2(3041.871mil,2385.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3036.303mil,2379.838mil) P2(3036.303mil,2379.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3005.303mil,2367.847mil) P2(3005.303mil,2367.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3010.871mil,2362.28mil) P2(3010.871mil,2362.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3022.861mil,2362.28mil) P2(3022.861mil,2362.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3028.429mil,2367.847mil) P2(3028.429mil,2367.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3028.429mil,2379.838mil) P2(3028.429mil,2379.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3022.861mil,2385.405mil) P2(3022.861mil,2385.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3010.871mil,2385.405mil) P2(3010.871mil,2385.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3005.303mil,2379.838mil) P2(3005.303mil,2379.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2974.303mil,2367.847mil) P2(2974.303mil,2367.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2979.871mil,2362.28mil) P2(2979.871mil,2362.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2991.861mil,2362.28mil) P2(2991.861mil,2362.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2997.429mil,2367.847mil) P2(2997.429mil,2367.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2997.429mil,2379.838mil) P2(2997.429mil,2379.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2991.861mil,2385.405mil) P2(2991.861mil,2385.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2979.871mil,2385.405mil) P2(2979.871mil,2385.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2974.303mil,2379.838mil) P2(2974.303mil,2379.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2943.303mil,2367.847mil) P2(2943.303mil,2367.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2948.871mil,2362.28mil) P2(2948.871mil,2362.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2960.861mil,2362.28mil) P2(2960.861mil,2362.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2966.429mil,2367.847mil) P2(2966.429mil,2367.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2966.429mil,2379.838mil) P2(2966.429mil,2379.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2960.861mil,2385.405mil) P2(2960.861mil,2385.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2948.871mil,2385.405mil) P2(2948.871mil,2385.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2943.303mil,2379.838mil) P2(2943.303mil,2379.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2929.861mil,2362.28mil) P2(2929.861mil,2362.28mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2935.429mil,2367.847mil) P2(2935.429mil,2367.847mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2935.429mil,2379.838mil) P2(2935.429mil,2379.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2929.861mil,2385.405mil) P2(2929.861mil,2385.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3041.871mil,2354.405mil) P2(3041.871mil,2354.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3036.303mil,2348.838mil) P2(3036.303mil,2348.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3028.429mil,2348.838mil) P2(3028.429mil,2348.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3022.861mil,2354.405mil) P2(3022.861mil,2354.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3010.871mil,2354.405mil) P2(3010.871mil,2354.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(3005.303mil,2348.838mil) P2(3005.303mil,2348.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2997.429mil,2348.838mil) P2(2997.429mil,2348.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2991.861mil,2354.405mil) P2(2991.861mil,2354.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2979.871mil,2354.405mil) P2(2979.871mil,2354.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2974.303mil,2348.838mil) P2(2974.303mil,2348.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2966.429mil,2348.838mil) P2(2966.429mil,2348.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2960.861mil,2354.405mil) P2(2960.861mil,2354.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2948.871mil,2354.405mil) P2(2948.871mil,2354.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2943.303mil,2348.838mil) P2(2943.303mil,2348.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2935.429mil,2348.838mil) P2(2935.429mil,2348.838mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2929.861mil,2354.405mil) P2(2929.861mil,2354.405mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2695.621mil,1834.323mil) P2(2695.621mil,1834.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2701.189mil,1839.891mil) P2(2701.189mil,1839.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2695.621mil,1803.323mil) P2(2695.621mil,1803.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2701.189mil,1808.891mil) P2(2701.189mil,1808.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2701.189mil,1820.881mil) P2(2701.189mil,1820.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2695.621mil,1826.449mil) P2(2695.621mil,1826.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2695.621mil,1772.323mil) P2(2695.621mil,1772.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2701.189mil,1777.891mil) P2(2701.189mil,1777.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2701.189mil,1789.881mil) P2(2701.189mil,1789.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2695.621mil,1795.449mil) P2(2695.621mil,1795.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2695.621mil,1741.323mil) P2(2695.621mil,1741.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2701.189mil,1746.891mil) P2(2701.189mil,1746.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2701.189mil,1758.881mil) P2(2701.189mil,1758.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2695.621mil,1764.449mil) P2(2695.621mil,1764.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2695.621mil,1710.323mil) P2(2695.621mil,1710.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2701.189mil,1715.891mil) P2(2701.189mil,1715.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2701.189mil,1727.881mil) P2(2701.189mil,1727.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2695.621mil,1733.449mil) P2(2695.621mil,1733.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2701.189mil,1696.881mil) P2(2701.189mil,1696.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2695.621mil,1702.449mil) P2(2695.621mil,1702.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2709.063mil,1839.891mil) P2(2709.063mil,1839.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2714.631mil,1834.323mil) P2(2714.631mil,1834.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2726.621mil,1834.323mil) P2(2726.621mil,1834.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2732.189mil,1839.891mil) P2(2732.189mil,1839.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2714.631mil,1826.449mil) P2(2714.631mil,1826.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2709.063mil,1820.881mil) P2(2709.063mil,1820.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2709.063mil,1808.891mil) P2(2709.063mil,1808.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2714.631mil,1803.323mil) P2(2714.631mil,1803.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2726.621mil,1803.323mil) P2(2726.621mil,1803.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2732.189mil,1808.891mil) P2(2732.189mil,1808.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2732.189mil,1820.881mil) P2(2732.189mil,1820.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2726.621mil,1826.449mil) P2(2726.621mil,1826.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2714.631mil,1795.449mil) P2(2714.631mil,1795.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2709.063mil,1789.881mil) P2(2709.063mil,1789.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2709.063mil,1777.891mil) P2(2709.063mil,1777.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2714.631mil,1772.323mil) P2(2714.631mil,1772.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2726.621mil,1772.323mil) P2(2726.621mil,1772.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2732.189mil,1777.891mil) P2(2732.189mil,1777.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2732.189mil,1789.881mil) P2(2732.189mil,1789.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2726.621mil,1795.449mil) P2(2726.621mil,1795.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2714.631mil,1764.449mil) P2(2714.631mil,1764.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2709.063mil,1758.881mil) P2(2709.063mil,1758.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2709.063mil,1746.891mil) P2(2709.063mil,1746.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2714.631mil,1741.323mil) P2(2714.631mil,1741.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2726.621mil,1741.323mil) P2(2726.621mil,1741.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2732.189mil,1746.891mil) P2(2732.189mil,1746.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2732.189mil,1758.881mil) P2(2732.189mil,1758.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2726.621mil,1764.449mil) P2(2726.621mil,1764.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2714.631mil,1733.449mil) P2(2714.631mil,1733.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2709.063mil,1727.881mil) P2(2709.063mil,1727.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2709.063mil,1715.891mil) P2(2709.063mil,1715.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2714.631mil,1710.323mil) P2(2714.631mil,1710.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2726.621mil,1710.323mil) P2(2726.621mil,1710.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2732.189mil,1715.891mil) P2(2732.189mil,1715.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2732.189mil,1727.881mil) P2(2732.189mil,1727.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2726.621mil,1733.449mil) P2(2726.621mil,1733.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2714.631mil,1702.449mil) P2(2714.631mil,1702.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2709.063mil,1696.881mil) P2(2709.063mil,1696.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2732.189mil,1696.881mil) P2(2732.189mil,1696.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2726.621mil,1702.449mil) P2(2726.621mil,1702.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2740.063mil,1839.891mil) P2(2740.063mil,1839.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2745.631mil,1834.323mil) P2(2745.631mil,1834.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2757.621mil,1834.323mil) P2(2757.621mil,1834.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2763.189mil,1839.891mil) P2(2763.189mil,1839.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2745.631mil,1826.449mil) P2(2745.631mil,1826.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2740.063mil,1820.881mil) P2(2740.063mil,1820.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2740.063mil,1808.891mil) P2(2740.063mil,1808.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2745.631mil,1803.323mil) P2(2745.631mil,1803.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2757.621mil,1803.323mil) P2(2757.621mil,1803.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2763.189mil,1808.891mil) P2(2763.189mil,1808.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2763.189mil,1820.881mil) P2(2763.189mil,1820.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2757.621mil,1826.449mil) P2(2757.621mil,1826.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2745.631mil,1795.449mil) P2(2745.631mil,1795.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2740.063mil,1789.881mil) P2(2740.063mil,1789.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2740.063mil,1777.891mil) P2(2740.063mil,1777.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2745.631mil,1772.323mil) P2(2745.631mil,1772.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2757.621mil,1772.323mil) P2(2757.621mil,1772.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2763.189mil,1777.891mil) P2(2763.189mil,1777.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2763.189mil,1789.881mil) P2(2763.189mil,1789.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2757.621mil,1795.449mil) P2(2757.621mil,1795.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2745.631mil,1764.449mil) P2(2745.631mil,1764.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2740.063mil,1758.881mil) P2(2740.063mil,1758.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2740.063mil,1746.891mil) P2(2740.063mil,1746.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2745.631mil,1741.323mil) P2(2745.631mil,1741.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2757.621mil,1741.323mil) P2(2757.621mil,1741.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2763.189mil,1746.891mil) P2(2763.189mil,1746.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2763.189mil,1758.881mil) P2(2763.189mil,1758.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2757.621mil,1764.449mil) P2(2757.621mil,1764.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2745.631mil,1733.449mil) P2(2745.631mil,1733.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2740.063mil,1727.881mil) P2(2740.063mil,1727.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2740.063mil,1715.891mil) P2(2740.063mil,1715.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2745.631mil,1710.323mil) P2(2745.631mil,1710.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2757.621mil,1710.323mil) P2(2757.621mil,1710.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2763.189mil,1715.891mil) P2(2763.189mil,1715.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2763.189mil,1727.881mil) P2(2763.189mil,1727.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2757.621mil,1733.449mil) P2(2757.621mil,1733.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2745.631mil,1702.449mil) P2(2745.631mil,1702.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2740.063mil,1696.881mil) P2(2740.063mil,1696.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2763.189mil,1696.881mil) P2(2763.189mil,1696.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2757.621mil,1702.449mil) P2(2757.621mil,1702.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2771.063mil,1839.891mil) P2(2771.063mil,1839.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2776.631mil,1834.323mil) P2(2776.631mil,1834.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2788.621mil,1834.323mil) P2(2788.621mil,1834.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2794.189mil,1839.891mil) P2(2794.189mil,1839.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2776.631mil,1826.449mil) P2(2776.631mil,1826.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2771.063mil,1820.881mil) P2(2771.063mil,1820.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2771.063mil,1808.891mil) P2(2771.063mil,1808.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2776.631mil,1803.323mil) P2(2776.631mil,1803.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2788.621mil,1803.323mil) P2(2788.621mil,1803.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2794.189mil,1808.891mil) P2(2794.189mil,1808.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2794.189mil,1820.881mil) P2(2794.189mil,1820.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2788.621mil,1826.449mil) P2(2788.621mil,1826.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2776.631mil,1795.449mil) P2(2776.631mil,1795.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2771.063mil,1789.881mil) P2(2771.063mil,1789.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2771.063mil,1777.891mil) P2(2771.063mil,1777.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2776.631mil,1772.323mil) P2(2776.631mil,1772.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2788.621mil,1772.323mil) P2(2788.621mil,1772.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2794.189mil,1777.891mil) P2(2794.189mil,1777.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2794.189mil,1789.881mil) P2(2794.189mil,1789.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2788.621mil,1795.449mil) P2(2788.621mil,1795.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2776.631mil,1764.449mil) P2(2776.631mil,1764.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2771.063mil,1758.881mil) P2(2771.063mil,1758.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2771.063mil,1746.891mil) P2(2771.063mil,1746.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2776.631mil,1741.323mil) P2(2776.631mil,1741.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2788.621mil,1741.323mil) P2(2788.621mil,1741.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2794.189mil,1746.891mil) P2(2794.189mil,1746.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2794.189mil,1758.881mil) P2(2794.189mil,1758.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2788.621mil,1764.449mil) P2(2788.621mil,1764.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2776.631mil,1733.449mil) P2(2776.631mil,1733.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2771.063mil,1727.881mil) P2(2771.063mil,1727.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2771.063mil,1715.891mil) P2(2771.063mil,1715.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2776.631mil,1710.323mil) P2(2776.631mil,1710.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2788.621mil,1710.323mil) P2(2788.621mil,1710.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2794.189mil,1715.891mil) P2(2794.189mil,1715.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2794.189mil,1727.881mil) P2(2794.189mil,1727.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2788.621mil,1733.449mil) P2(2788.621mil,1733.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2776.631mil,1702.449mil) P2(2776.631mil,1702.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2771.063mil,1696.881mil) P2(2771.063mil,1696.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2794.189mil,1696.881mil) P2(2794.189mil,1696.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2788.621mil,1702.449mil) P2(2788.621mil,1702.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2802.063mil,1839.891mil) P2(2802.063mil,1839.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2807.631mil,1834.323mil) P2(2807.631mil,1834.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2819.621mil,1834.323mil) P2(2819.621mil,1834.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2825.189mil,1839.891mil) P2(2825.189mil,1839.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2807.631mil,1826.449mil) P2(2807.631mil,1826.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2802.063mil,1820.881mil) P2(2802.063mil,1820.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2802.063mil,1808.891mil) P2(2802.063mil,1808.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2807.631mil,1803.323mil) P2(2807.631mil,1803.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2819.621mil,1803.323mil) P2(2819.621mil,1803.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2825.189mil,1808.891mil) P2(2825.189mil,1808.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2825.189mil,1820.881mil) P2(2825.189mil,1820.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2819.621mil,1826.449mil) P2(2819.621mil,1826.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2807.631mil,1795.449mil) P2(2807.631mil,1795.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2802.063mil,1789.881mil) P2(2802.063mil,1789.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2802.063mil,1777.891mil) P2(2802.063mil,1777.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2807.631mil,1772.323mil) P2(2807.631mil,1772.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2819.621mil,1772.323mil) P2(2819.621mil,1772.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2825.189mil,1777.891mil) P2(2825.189mil,1777.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2825.189mil,1789.881mil) P2(2825.189mil,1789.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2819.621mil,1795.449mil) P2(2819.621mil,1795.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2807.631mil,1764.449mil) P2(2807.631mil,1764.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2802.063mil,1758.881mil) P2(2802.063mil,1758.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2802.063mil,1746.891mil) P2(2802.063mil,1746.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2807.631mil,1741.323mil) P2(2807.631mil,1741.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2819.621mil,1741.323mil) P2(2819.621mil,1741.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2825.189mil,1746.891mil) P2(2825.189mil,1746.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2825.189mil,1758.881mil) P2(2825.189mil,1758.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2819.621mil,1764.449mil) P2(2819.621mil,1764.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2807.631mil,1733.449mil) P2(2807.631mil,1733.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2802.063mil,1727.881mil) P2(2802.063mil,1727.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2802.063mil,1715.891mil) P2(2802.063mil,1715.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2807.631mil,1710.323mil) P2(2807.631mil,1710.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2819.621mil,1710.323mil) P2(2819.621mil,1710.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2825.189mil,1715.891mil) P2(2825.189mil,1715.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2825.189mil,1727.881mil) P2(2825.189mil,1727.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2819.621mil,1733.449mil) P2(2819.621mil,1733.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2807.631mil,1702.449mil) P2(2807.631mil,1702.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2802.063mil,1696.881mil) P2(2802.063mil,1696.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2825.189mil,1696.881mil) P2(2825.189mil,1696.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2819.621mil,1702.449mil) P2(2819.621mil,1702.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2833.063mil,1839.891mil) P2(2833.063mil,1839.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2838.631mil,1834.323mil) P2(2838.631mil,1834.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2838.631mil,1826.449mil) P2(2838.631mil,1826.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2833.063mil,1820.881mil) P2(2833.063mil,1820.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2833.063mil,1808.891mil) P2(2833.063mil,1808.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2838.631mil,1803.323mil) P2(2838.631mil,1803.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2838.631mil,1795.449mil) P2(2838.631mil,1795.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2833.063mil,1789.881mil) P2(2833.063mil,1789.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2833.063mil,1777.891mil) P2(2833.063mil,1777.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2838.631mil,1772.323mil) P2(2838.631mil,1772.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2838.631mil,1764.449mil) P2(2838.631mil,1764.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2833.063mil,1758.881mil) P2(2833.063mil,1758.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2833.063mil,1746.891mil) P2(2833.063mil,1746.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2838.631mil,1741.323mil) P2(2838.631mil,1741.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2838.631mil,1733.449mil) P2(2838.631mil,1733.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2833.063mil,1727.881mil) P2(2833.063mil,1727.881mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2833.063mil,1715.891mil) P2(2833.063mil,1715.891mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2838.631mil,1710.323mil) P2(2838.631mil,1710.323mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2838.631mil,1702.449mil) P2(2838.631mil,1702.449mil)
+   Micro-Segment: Region (0 hole(s)) Top Paste P1(2833.063mil,1696.881mil) P2(2833.063mil,1696.881mil)
+Issues :328
+
+PCB Health Issue Category : Micro-Segments (Copper)
+   Micro-Segment: Polygon Pour Cutout (PWR)Region (0 hole(s)) PWR P1(2191.939mil,2603.061mil) P2(2191.939mil,2603.061mil)
+Issues :1
+
+PCB Health Issue Category : Self-Intersecting Regions
+   Self-intersection: Polygon Pour Cutout (PWR)Region (0 hole(s)) PWR (2442.551mil,2811.002mil)
+   Self-intersection: Polygon Pour Cutout (PWR)Region (0 hole(s)) PWR (2444.221mil,2809.332mil)
+   Self-intersection: Polygon Pour Cutout (PWR)Region (0 hole(s)) PWR (2444.223mil,2809.33mil)
+Issues :3
+
+PCB Health Issue Category : Zero Area Polygons
+   Zero area polygon: Polygon  (NONET_L01_P007) on Top Layer 1 (2622.5mil,1772.5mil)
+   Zero area polygon: Polygon  (NONET_L03_P095) on PWR (2260mil,2645mil)
+   Zero area polygon: Polygon  (NONET_L03_P035) on PWR (2355mil,1982.5mil)
+Issues :3
+
+PCB Health Issue Category : Unused From-Tos
+   Unused From-To: DDR_WEn (AM335x-B2 : SDRAM1-L3)
+   Unused From-To: DDR_CASn (AM335x-F1 : SDRAM1-K3)
+   Unused From-To: DDR_RASn (AM335x-G4 : SDRAM1-J3)
+   Unused From-To: DDR_CLK_P (AM335x-D2 : SDRAM1-J7)
+   Unused From-To: DDR_CLK_N (AM335x-D1 : SDRAM1-K7)
+   Unused From-To: DDR_ODT (AM335x-G1 : SDRAM1-K1)
+   Unused From-To: DDR_CSn (AM335x-H2 : SDRAM1-L2)
+   Unused From-To: DDR_BA2 (AM335x-B3 : SDRAM1-M3)
+   Unused From-To: DDR_BA1 (AM335x-E1 : SDRAM1-N8)
+   Unused From-To: DDR_BA0 (AM335x-C4 : SDRAM1-M2)
+   Unused From-To: DDR_A15 (AM335x-D3 : SDRAM1-M7)
+   Unused From-To: DDR_A14 (AM335x-H4 : SDRAM1-T7)
+   Unused From-To: DDR_A13 (AM335x-H3 : SDRAM1-T3)
+   Unused From-To: DDR_A12 (AM335x-E3 : SDRAM1-N7)
+   Unused From-To: DDR_A11 (AM335x-F2 : SDRAM1-R7)
+   Unused From-To: DDR_A10 (AM335x-F4 : SDRAM1-L7)
+   Unused From-To: DDR_A9 (AM335x-C1 : SDRAM1-R3)
+   Unused From-To: DDR_A8 (AM335x-D4 : SDRAM1-T8)
+   Unused From-To: DDR_A7 (AM335x-E2 : SDRAM1-R2)
+   Unused From-To: DDR_A6 (AM335x-D5 : SDRAM1-R8)
+   Unused From-To: DDR_A5 (AM335x-B1 : SDRAM1-P2)
+   Unused From-To: DDR_A4 (AM335x-C2 : SDRAM1-P8)
+   Unused From-To: DDR_A3 (AM335x-C3 : SDRAM1-N2)
+   Unused From-To: DDR_A2 (AM335x-E4 : SDRAM1-P3)
+   Unused From-To: DDR_A1 (AM335x-H1 : SDRAM1-P7)
+   Unused From-To: DDR_A0 (AM335x-F3 : SDRAM1-N3)
+Issues :26
+
+
+Violations Detected : 500
+Waived Violations : 0
+PCB Health Issues : 361
+Time Elapsed        : 00:00:11

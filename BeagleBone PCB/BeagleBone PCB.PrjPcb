@@ -444,6 +444,10 @@ DocumentUniqueId=
 DocumentPath=BeagleBonePCB 6-26-2024 6-07-12 PM.WAS
 DItemRevisionGUID=
 
+[GeneratedDocument2]
+DocumentPath=Project Outputs for BeagleBone PCB\Design Rule Check - BeagleBonePCB.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -1406,6 +1410,300 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=24LC32AT-I_SN.IntLib
+ComponentDesignItemID0=24LC32AT-I/SN
+ComponentSymbolReference0=24LC32AT-I/SN
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=32k768Hz Crystal 3.2x1.5.IntLib
+ComponentDesignItemID1=FC-135
+ComponentSymbolReference1=FC-135
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=7A-25.000MAAJ-T.IntLib
+ComponentDesignItemID2=7A-25.000MAAJ-T
+ComponentSymbolReference2=7A-25.000MAAJ-T
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=AM3358BZCZ100.IntLib
+ComponentDesignItemID3=AM3358BZCZ100
+ComponentSymbolReference3=AM3358BZCZ100
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=Celestial Altium Library - altium_library.DbLib/Capacitors - Ceramic - 0402
+ComponentDesignItemID4=885012105001
+ComponentSymbolReference4=Capacitor
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=Celestial Altium Library - altium_library.DbLib/Capacitors - Ceramic - 0402
+ComponentDesignItemID5=C0402C102M4REC7867
+ComponentSymbolReference5=Capacitor
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=Celestial Altium Library - altium_library.DbLib/Capacitors - Ceramic - 0402
+ComponentDesignItemID6=C0402C471J5GACAUTO
+ComponentSymbolReference6=Capacitor
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=Celestial Altium Library - altium_library.DbLib/Capacitors - Ceramic - 0402
+ComponentDesignItemID7=CL05B104KP5VPNC
+ComponentSymbolReference7=Capacitor
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=Celestial Altium Library - altium_library.DbLib/Capacitors - Ceramic - 0402
+ComponentDesignItemID8=GRM155D80J225KE95D
+ComponentSymbolReference8=Capacitor
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=Celestial Altium Library - altium_library.DbLib/Capacitors - Ceramic - 0402
+ComponentDesignItemID9=UMK105CG470JVHF
+ComponentSymbolReference9=Capacitor
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=Celestial Altium Library - altium_library.DbLib/Capacitors - Ceramic - 0805
+ComponentDesignItemID10=CL21Y106KPQVPNE
+ComponentSymbolReference10=Capacitor
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=Celestial Altium Library - altium_library.DbLib/Connectors - Barrel - Power
+ComponentDesignItemID11=PJ-102AH
+ComponentSymbolReference11=Barrel Connector
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=Celestial Altium Library - altium_library.DbLib/Filters - Ferrite Beads and Chips
+ComponentDesignItemID12=ILBB0805ER151V
+ComponentSymbolReference12=Ferrite Chip
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=Celestial Altium Library - altium_library.DbLib/Inductors - Power
+ComponentDesignItemID13=LQM2HPN2R2MG0L
+ComponentSymbolReference13=Inductor
+ComponentUpdate13=1
+ComponentIsDeviceSheet13=0
+ComponentLibIdentifierKind14=Library Name And Type
+ComponentLibraryIdentifier14=Celestial Altium Library - altium_library.DbLib/LED - Indication
+ComponentDesignItemID14=SM0603UYC
+ComponentSymbolReference14=LED
+ComponentUpdate14=1
+ComponentIsDeviceSheet14=0
+ComponentLibIdentifierKind15=Library Name And Type
+ComponentLibraryIdentifier15=Celestial Altium Library - altium_library.DbLib/Resistors - Surface Mount - 0402
+ComponentDesignItemID15=CRGP0402F470K
+ComponentSymbolReference15=Resistor
+ComponentUpdate15=1
+ComponentIsDeviceSheet15=0
+ComponentLibIdentifierKind16=Library Name And Type
+ComponentLibraryIdentifier16=Celestial Altium Library - altium_library.DbLib/Resistors - Surface Mount - 0402
+ComponentDesignItemID16=ERA-2VEB1002X
+ComponentSymbolReference16=Resistor
+ComponentUpdate16=1
+ComponentIsDeviceSheet16=0
+ComponentLibIdentifierKind17=Library Name And Type
+ComponentLibraryIdentifier17=Celestial Altium Library - altium_library.DbLib/Resistors - Surface Mount - 0402
+ComponentDesignItemID17=ERJ-PA2F33R0X
+ComponentSymbolReference17=Resistor
+ComponentUpdate17=1
+ComponentIsDeviceSheet17=0
+ComponentLibIdentifierKind18=Library Name And Type
+ComponentLibraryIdentifier18=Celestial Altium Library - altium_library.DbLib/Resistors - Surface Mount - 0402
+ComponentDesignItemID18=RC0402FR-07280KL
+ComponentSymbolReference18=Resistor
+ComponentUpdate18=1
+ComponentIsDeviceSheet18=0
+ComponentLibIdentifierKind19=Library Name And Type
+ComponentLibraryIdentifier19=Celestial Altium Library - altium_library.DbLib/Resistors - Surface Mount - 0402
+ComponentDesignItemID19=RMCF0402JT10K0
+ComponentSymbolReference19=Resistor
+ComponentUpdate19=1
+ComponentIsDeviceSheet19=0
+ComponentLibIdentifierKind20=Library Name And Type
+ComponentLibraryIdentifier20=Celestial Altium Library - altium_library.DbLib/Resistors - Surface Mount - 0402
+ComponentDesignItemID20=RN73H1ETTP4700D25
+ComponentSymbolReference20=Resistor
+ComponentUpdate20=1
+ComponentIsDeviceSheet20=0
+ComponentLibIdentifierKind21=Library Name And Type
+ComponentLibraryIdentifier21=Celestial Altium Library - altium_library.DbLib/Resistors - Surface Mount - 0402
+ComponentDesignItemID21=RP73PF1E100KBTD
+ComponentSymbolReference21=Resistor
+ComponentUpdate21=1
+ComponentIsDeviceSheet21=0
+ComponentLibIdentifierKind22=Library Name And Type
+ComponentLibraryIdentifier22=Celestial Altium Library - altium_library.DbLib/Resistors - Surface Mount - 0402
+ComponentDesignItemID22=RP73PF1E1K5BTD
+ComponentSymbolReference22=Resistor
+ComponentUpdate22=1
+ComponentIsDeviceSheet22=0
+ComponentLibIdentifierKind23=Library Name And Type
+ComponentLibraryIdentifier23=Celestial Altium Library - altium_library.DbLib/Switches - Tactile
+ComponentDesignItemID23=FSMSM
+ComponentSymbolReference23=SPST-NO 2 PIN
+ComponentUpdate23=1
+ComponentIsDeviceSheet23=0
+ComponentLibIdentifierKind24=Library Name And Type
+ComponentLibraryIdentifier24=D2516ECMDXGJDI-U.IntLib
+ComponentDesignItemID24=SDRAM_DDR3L
+ComponentSymbolReference24=SDRAM_DDR3L
+ComponentUpdate24=1
+ComponentIsDeviceSheet24=0
+ComponentLibIdentifierKind25=Library Name And Type
+ComponentLibraryIdentifier25=DDC114YU-7-F.IntLib
+ComponentDesignItemID25=DDC114YU-7-F
+ComponentSymbolReference25=DDC114YU-7-F
+ComponentUpdate25=1
+ComponentIsDeviceSheet25=0
+ComponentLibIdentifierKind26=Library Name And Type
+ComponentLibraryIdentifier26=ECS-2033-245.7-B-TR.IntLib
+ComponentDesignItemID26=ECS-2033-245.7-B-TR
+ComponentSymbolReference26=ECS-2033-245.7-B-TR
+ComponentUpdate26=1
+ComponentIsDeviceSheet26=0
+ComponentLibIdentifierKind27=Library Name And Type
+ComponentLibraryIdentifier27=EMMC04G-M627-A01.IntLib
+ComponentDesignItemID27=EMMC04G-M627-A01
+ComponentSymbolReference27=EMMC04G-M627-A01
+ComponentUpdate27=1
+ComponentIsDeviceSheet27=0
+ComponentLibIdentifierKind28=Library Name And Type
+ComponentLibraryIdentifier28=Fuse 1206.IntLib
+ComponentDesignItemID28=1206L035YR
+ComponentSymbolReference28=1206L035YR
+ComponentUpdate28=1
+ComponentIsDeviceSheet28=0
+ComponentLibIdentifierKind29=Library Name And Type
+ComponentLibraryIdentifier29=Header 1.27mm 2x10.IntLib
+ComponentDesignItemID29=SAMTEC-FTS-110-03-X-DV
+ComponentSymbolReference29=SAMTEC-FTS-110-03-X-DV
+ComponentUpdate29=1
+ComponentIsDeviceSheet29=0
+ComponentLibIdentifierKind30=Library Name And Type
+ComponentLibraryIdentifier30=Header 1x6 2.54mm.IntLib
+ComponentDesignItemID30=BBS-106-X-X
+ComponentSymbolReference30=BBS-106-X-X
+ComponentUpdate30=1
+ComponentIsDeviceSheet30=0
+ComponentLibIdentifierKind31=Library Name And Type
+ComponentLibraryIdentifier31=LAN8710A.IntLib
+ComponentDesignItemID31=LAN8710A-EZC-TR
+ComponentSymbolReference31=LAN8710A-EZC-TR
+ComponentUpdate31=1
+ComponentIsDeviceSheet31=0
+ComponentLibIdentifierKind32=Library Name And Type
+ComponentLibraryIdentifier32=LPJ0011BBNL.IntLib
+ComponentDesignItemID32=LPJ0011BBNL
+ComponentSymbolReference32=LPJ0011BBNL
+ComponentUpdate32=1
+ComponentIsDeviceSheet32=0
+ComponentLibIdentifierKind33=Library Name And Type
+ComponentLibraryIdentifier33=Micro HDMI.IntLib
+ComponentDesignItemID33=10118241-001RLF
+ComponentSymbolReference33=10118241-001RLF
+ComponentUpdate33=1
+ComponentIsDeviceSheet33=0
+ComponentLibIdentifierKind34=Library Name And Type
+ComponentLibraryIdentifier34=MicroSD Connector-1.IntLib
+ComponentDesignItemID34=104031-0811
+ComponentSymbolReference34=104031-0811
+ComponentUpdate34=1
+ComponentIsDeviceSheet34=0
+ComponentLibIdentifierKind35=Library Name And Type
+ComponentLibraryIdentifier35=RB751V40.IntLib
+ComponentDesignItemID35=RB751V40-115
+ComponentSymbolReference35=RB751V40-115
+ComponentUpdate35=1
+ComponentIsDeviceSheet35=0
+ComponentLibIdentifierKind36=Library Name And Type
+ComponentLibraryIdentifier36=SN74AHC1G09DCKR.IntLib
+ComponentDesignItemID36=SN74AHC1G09DCKR
+ComponentSymbolReference36=SN74AHC1G09DCKR
+ComponentUpdate36=1
+ComponentIsDeviceSheet36=0
+ComponentLibIdentifierKind37=Library Name And Type
+ComponentLibraryIdentifier37=SN74LVC1G06DCKR.IntLib
+ComponentDesignItemID37=SN74LVC1G06DCKR
+ComponentSymbolReference37=SN74LVC1G06DCKR
+ComponentUpdate37=1
+ComponentIsDeviceSheet37=0
+ComponentLibIdentifierKind38=Library Name And Type
+ComponentLibraryIdentifier38=SN74LVC1G07DCKR.IntLib
+ComponentDesignItemID38=SN74LVC1G07DCKR
+ComponentSymbolReference38=SN74LVC1G07DCKR
+ComponentUpdate38=1
+ComponentIsDeviceSheet38=0
+ComponentLibIdentifierKind39=Library Name And Type
+ComponentLibraryIdentifier39=SN74LVC1G74DCTR.IntLib
+ComponentDesignItemID39=SN74LVC1G74DCTR
+ComponentSymbolReference39=SN74LVC1G74DCTR
+ComponentUpdate39=1
+ComponentIsDeviceSheet39=0
+ComponentLibIdentifierKind40=Library Name And Type
+ComponentLibraryIdentifier40=SN74LVC2G241DCUR.IntLib
+ComponentDesignItemID40=SN74LVC2G241DCUR
+ComponentSymbolReference40=SN74LVC2G241DCUR
+ComponentUpdate40=1
+ComponentIsDeviceSheet40=0
+ComponentLibIdentifierKind41=Library Name And Type
+ComponentLibraryIdentifier41=TDA19988BHN_C1_557.IntLib
+ComponentDesignItemID41=TDA19988BHN/C1,557
+ComponentSymbolReference41=TDA19988BHN/C1,557
+ComponentUpdate41=1
+ComponentIsDeviceSheet41=0
+ComponentLibIdentifierKind42=Library Name And Type
+ComponentLibraryIdentifier42=TL5209DR.IntLib
+ComponentDesignItemID42=TL5209DR
+ComponentSymbolReference42=TL5209DR
+ComponentUpdate42=1
+ComponentIsDeviceSheet42=0
+ComponentLibIdentifierKind43=Library Name And Type
+ComponentLibraryIdentifier43=TPD4S009DGSR.IntLib
+ComponentDesignItemID43=TPD4S009DGSR
+ComponentSymbolReference43=TPD4S009DGSR
+ComponentUpdate43=1
+ComponentIsDeviceSheet43=0
+ComponentLibIdentifierKind44=Library Name And Type
+ComponentLibraryIdentifier44=TPD4S012DRYR.IntLib
+ComponentDesignItemID44=TPD4S012DRYR
+ComponentSymbolReference44=TPD4S012DRYR
+ComponentUpdate44=1
+ComponentIsDeviceSheet44=0
+ComponentLibIdentifierKind45=Library Name And Type
+ComponentLibraryIdentifier45=TPS2051BDGNR.IntLib
+ComponentDesignItemID45=TPS2051BDGNR
+ComponentSymbolReference45=TPS2051BDGNR
+ComponentUpdate45=1
+ComponentIsDeviceSheet45=0
+ComponentLibIdentifierKind46=Library Name And Type
+ComponentLibraryIdentifier46=TPS65217CRSLR.IntLib
+ComponentDesignItemID46=TPS65217CRSLR
+ComponentSymbolReference46=TPS65217CRSLR
+ComponentUpdate46=1
+ComponentIsDeviceSheet46=0
+ComponentLibIdentifierKind47=Library Name And Type
+ComponentLibraryIdentifier47=USB.IntLib
+ComponentDesignItemID47=614004190021
+ComponentSymbolReference47=614004190021
+ComponentUpdate47=1
+ComponentIsDeviceSheet47=0
+ComponentLibIdentifierKind48=Library Name And Type
+ComponentLibraryIdentifier48=USB.IntLib
+ComponentDesignItemID48=629105150521
+ComponentSymbolReference48=629105150521
+ComponentUpdate48=1
+ComponentIsDeviceSheet48=0
 
 [NetInfos]
 Net1=NetName=[4,11]LCD_DE|NetColor=clYellow
@@ -1457,197 +1755,210 @@ Net46=NetName=ETH_RST_GPIO1_8|NetColor=$00FFFF6E
 Net47=NetName=GND|NetColor=clGray
 Net48=NetName=GND_ADC|NetColor=clGray
 Net49=NetName=GRNA|NetColor=$00FF6E6E
-Net50=NetName=HDMI_TX0-|NetColor=$00FF6E6E
-Net51=NetName=HDMI_TX0_N|NetColor=$00FF6E6E
-Net52=NetName=HDMI_TX0_P|NetColor=$00FF6E6E
-Net53=NetName=HDMI_TX0+|NetColor=$00FF6E6E
-Net54=NetName=HDMI_TX1-|NetColor=$00FF6E6E
-Net55=NetName=HDMI_TX1_N|NetColor=$00FF6E6E
-Net56=NetName=HDMI_TX1_P|NetColor=$00FF6E6E
-Net57=NetName=HDMI_TX1+|NetColor=$00FF6E6E
-Net58=NetName=HDMI_TX2-|NetColor=$00FF6E6E
-Net59=NetName=HDMI_TX2_N|NetColor=$00FF6E6E
-Net60=NetName=HDMI_TX2_P|NetColor=$00FF6E6E
-Net61=NetName=HDMI_TX2+|NetColor=$00FF6E6E
-Net62=NetName=HDMI_TXC-|NetColor=$00FF6E6E
-Net63=NetName=HDMI_TXC_N|NetColor=$00FF6E6E
-Net64=NetName=HDMI_TXC_P|NetColor=$00FF6E6E
-Net65=NetName=HDMI_TXC+|NetColor=$00FF6E6E
-Net66=NetName=MDIO_CLK|NetColor=$00FFFF6E
-Net67=NetName=MDIO_DATA|NetColor=$00FFFF6E
-Net68=NetName=MII1_COL|NetColor=$00FFFF6E
-Net69=NetName=MII1_CRS_DV|NetColor=$00FFFF6E
-Net70=NetName=MII1_RXCLK|NetColor=$00FFFF6E
-Net71=NetName=MII1_RXD0|NetColor=$00FFFF6E
-Net72=NetName=MII1_RXD1|NetColor=$00FFFF6E
-Net73=NetName=MII1_RXD2|NetColor=$00FFFF6E
-Net74=NetName=MII1_RXD3|NetColor=$00FFFF6E
-Net75=NetName=MII1_RXDV|NetColor=$00FFFF6E
-Net76=NetName=MII1_RXERR|NetColor=$00FFFF6E
-Net77=NetName=MII1_TXCLK|NetColor=$00FFFF6E
-Net78=NetName=MII1_TXD0|NetColor=$00FFFF6E
-Net79=NetName=MII1_TXD1|NetColor=$00FFFF6E
-Net80=NetName=MII1_TXD2|NetColor=$00FFFF6E
-Net81=NetName=MII1_TXD3|NetColor=$00FFFF6E
-Net82=NetName=MII1_TXEN|NetColor=$00FFFF6E
-Net83=NetName=MMC0_CD|NetColor=clYellow
-Net84=NetName=MMC0_CLKO|NetColor=clYellow
-Net85=NetName=MMC0_CMD|NetColor=clYellow
-Net86=NetName=MMC0_DAT0|NetColor=clYellow
-Net87=NetName=MMC0_DAT1|NetColor=clYellow
-Net88=NetName=MMC0_DAT2|NetColor=clYellow
-Net89=NetName=MMC0_DAT3|NetColor=clYellow
-Net90=NetName=MMC1_CLK|NetColor=$00FF6EFF
-Net91=NetName=MMC1_CMD|NetColor=$00FF6EFF
-Net92=NetName=MMC1_DATA0|NetColor=$00FF6EFF
-Net93=NetName=MMC1_DATA1|NetColor=$00FF6EFF
-Net94=NetName=MMC1_DATA2|NetColor=$00FF6EFF
-Net95=NetName=MMC1_DATA3|NetColor=$00FF6EFF
-Net96=NetName=MMC1_DATA4|NetColor=$00FF6EFF
-Net97=NetName=MMC1_DATA5|NetColor=$00FF6EFF
-Net98=NetName=MMC1_DATA6|NetColor=$00FF6EFF
-Net99=NetName=MMC1_DATA7|NetColor=$00FF6EFF
-Net100=NetName=MODE2|NetColor=$00FFFF6E
-Net101=NetName=N00000|NetColor=$006E6EFF
-Net102=NetName=NetAM335x_D7|NetColor=$006E6EFF
-Net103=NetName=NetAM335x_E10|NetColor=$006E6EFF
-Net104=NetName=NetAM335x_E6|NetColor=$006E6EFF
-Net105=NetName=NetAM335x_E9|NetColor=$006E6EFF
-Net106=NetName=NetC1_2|NetColor=$006E6EFF
-Net107=NetName=NetC10_1|NetColor=$006E6EFF
-Net108=NetName=NetC11_1|NetColor=$006E6EFF
-Net109=NetName=NetC18_2|NetColor=$006E6EFF
-Net110=NetName=NetC2_2|NetColor=$006E6EFF
-Net111=NetName=NetC3_2|NetColor=$006E6EFF
-Net112=NetName=NetC43_2|NetColor=$006E6EFF
-Net113=NetName=NetC44_2|NetColor=$00FF6E6E
-Net114=NetName=NetC47_2|NetColor=$00FF6E6E
-Net115=NetName=NetC55_2|NetColor=$00FF6E6E
-Net116=NetName=NetC6_2|NetColor=$006E6EFF
-Net117=NetName=NetC62_2|NetColor=$006E6EFF
-Net118=NetName=NetC64_2|NetColor=$006E6EFF
-Net119=NetName=NetFB?_2|NetColor=$006E6EFF
-Net120=NetName=NetJ2_1|NetColor=$00FF6E6E
-Net121=NetName=NetJ2_15|NetColor=$00FF6E6E
-Net122=NetName=NetJ2_17|NetColor=$00FF6E6E
-Net123=NetName=NetJ2_18|NetColor=$00FF6E6E
-Net124=NetName=NetR?_2|NetColor=$00FFFF6E
-Net125=NetName=NetR16_1|NetColor=$006E6EFF
-Net126=NetName=NetR20_2|NetColor=$00FFFF6E
-Net127=NetName=NetR21_2|NetColor=$00FFFF6E
-Net128=NetName=NetR25_1|NetColor=$00FFFF6E
-Net129=NetName=NetR26_1|NetColor=$00FFFF6E
-Net130=NetName=NetR26_2|NetColor=$00FFFF6E
-Net131=NetName=NetR27_1|NetColor=$00FFFF6E
-Net132=NetName=NetR27_2|NetColor=$00FFFF6E
-Net133=NetName=NetR28_1|NetColor=$00FFFF6E
-Net134=NetName=NetR28_2|NetColor=$00FFFF6E
-Net135=NetName=NetR29_1|NetColor=$00FFFF6E
-Net136=NetName=NetR30_1|NetColor=$00FFFF6E
-Net137=NetName=NetR30_2|NetColor=$00FFFF6E
-Net138=NetName=NetR31_1|NetColor=$00FFFF6E
-Net139=NetName=NetR31_2|NetColor=$00FFFF6E
-Net140=NetName=NetR32_1|NetColor=$00FFFF6E
-Net141=NetName=NetR33_1|NetColor=$00FFFF6E
-Net142=NetName=NetR34_1|NetColor=$00FFFF6E
-Net143=NetName=NetR34_2|NetColor=$00FFFF6E
-Net144=NetName=NetR35_1|NetColor=$00FFFF6E
-Net145=NetName=NetR36_1|NetColor=$00FFFF6E
-Net146=NetName=NetR36_2|NetColor=$00FFFF6E
-Net147=NetName=NetR37_1|NetColor=$00FFFF6E
-Net148=NetName=NetR37_2|NetColor=$00FFFF6E
-Net149=NetName=NetR38_1|NetColor=$00FFFF6E
-Net150=NetName=NetR38_2|NetColor=$00FFFF6E
-Net151=NetName=NetR39_1|NetColor=$00FFFF6E
-Net152=NetName=NetR39_2|NetColor=$00FFFF6E
-Net153=NetName=NetR40_1|NetColor=$00FFFF6E
-Net154=NetName=NetR41_1|NetColor=$00FFFF6E
-Net155=NetName=NetR41_2|NetColor=$00FFFF6E
-Net156=NetName=NetR42_1|NetColor=$00FFFF6E
-Net157=NetName=NetR42_2|NetColor=$00FFFF6E
-Net158=NetName=NetR43_1|NetColor=$00FFFF6E
-Net159=NetName=NetR43_2|NetColor=$00FFFF6E
-Net160=NetName=NetR44_1|NetColor=$00FFFF6E
-Net161=NetName=NetR45_1|NetColor=$00FFFF6E
-Net162=NetName=NetR45_2|NetColor=$00FFFF6E
-Net163=NetName=NetR46_1|NetColor=$00FFFF6E
-Net164=NetName=NetR47_1|NetColor=$00FFFF6E
-Net165=NetName=NetR47_2|NetColor=$00FFFF6E
-Net166=NetName=NetR48_1|NetColor=$00FFFF6E
-Net167=NetName=NetR48_2|NetColor=$00FFFF6E
-Net168=NetName=NetR52_1|NetColor=$00FFFF6E
-Net169=NetName=NetR52_2|NetColor=$00FFFF6E
-Net170=NetName=NetR53_1|NetColor=$00FFFF6E
-Net171=NetName=NetR53_2|NetColor=$00FFFF6E
-Net172=NetName=NetR54_2|NetColor=$00FFFF6E
-Net173=NetName=NetR56_2|NetColor=$00FFFF6E
-Net174=NetName=NetR57_2|NetColor=$00FFFF6E
-Net175=NetName=NetR60_2|NetColor=$00FFFF6E
-Net176=NetName=NetR62_2|NetColor=$00FFFF6E
-Net177=NetName=NetR63_2|NetColor=$00FFFF6E
-Net178=NetName=NetR68_2|NetColor=$00FFFF6E
-Net179=NetName=NetU11_17|NetColor=$00FFFF6E
-Net180=NetName=NetU6_17|NetColor=$00FFFF6E
-Net181=NetName=POWER.GND_ADC|NetColor=clGray
-Net182=NetName=POWER.USB_DC|NetColor=$006E6EFF
-Net183=NetName=POWER.VDD_1V8|NetColor=$006E6EFF
-Net184=NetName=POWER.VDD_3V3A|NetColor=$006E6EFF
-Net185=NetName=POWER.VDD_3V3B|NetColor=$006E6EFF
-Net186=NetName=POWER.VDDS|NetColor=$006E6EFF
-Net187=NetName=POWER.VIO|NetColor=$006E6EFF
-Net188=NetName=POWER.VRTC|NetColor=$006E6EFF
-Net189=NetName=REFCLKO|NetColor=$00FFFF6E
-Net190=NetName=RX_N|NetColor=$00FF6E6E
-Net191=NetName=RX_P|NetColor=$00FF6E6E
-Net192=NetName=RXD0/MODE0|NetColor=$00FFFF6E
-Net193=NetName=RXD1/MODE1|NetColor=$00FFFF6E
-Net194=NetName=RXD2/RMIISEL|NetColor=$00FFFF6E
-Net195=NetName=RXD3/PHYAD2|NetColor=$00FFFF6E
-Net196=NetName=RXDV|NetColor=$00FFFF6E
-Net197=NetName=RXER/PHYAD0|NetColor=$00FFFF6E
-Net198=NetName=RXP|NetColor=$00FF6E6E
-Net199=NetName=SD_CLK|NetColor=clYellow
-Net200=NetName=SD_CMD|NetColor=clYellow
-Net201=NetName=SD_DAT0|NetColor=clYellow
-Net202=NetName=SD_DAT1|NetColor=clYellow
-Net203=NetName=SD_DAT2|NetColor=clYellow
-Net204=NetName=SD_DAT3|NetColor=clYellow
-Net205=NetName=SPI1.SPI1_CLK|NetColor=$00FF6EFF
-Net206=NetName=SPI1.SPI1_CS0|NetColor=$00FF6EFF
-Net207=NetName=SPI1.SPI1_D0|NetColor=$00FF6EFF
-Net208=NetName=SPI1_CS0|NetColor=$00FF6EFF
-Net209=NetName=SPI1_D0|NetColor=$00FF6EFF
-Net210=NetName=SPI1_D1|NetColor=$00FF6EFF
-Net211=NetName=SPI1_SCLK|NetColor=$00FF6EFF
-Net212=NetName=SYS_RESETn|NetColor=$00FFFF6E
-Net213=NetName=TX_N|NetColor=$00FF6E6E
-Net214=NetName=TX_P|NetColor=$00FF6E6E
-Net215=NetName=TXCLK|NetColor=$00FFFF6E
-Net216=NetName=TXD0|NetColor=$00FFFF6E
-Net217=NetName=TXD1|NetColor=$00FFFF6E
-Net218=NetName=TXD2|NetColor=$00FFFF6E
-Net219=NetName=TXD3|NetColor=$00FFFF6E
-Net220=NetName=TXEN|NetColor=$00FFFF6E
-Net221=NetName=TXN|NetColor=$00FF6E6E
-Net222=NetName=TXP|NetColor=$00FF6E6E
-Net223=NetName=USB_DC|NetColor=$006E6EFF
-Net224=NetName=uSD.MMC0_CD|NetColor=clYellow
-Net225=NetName=uSD.MMC0_CLKO|NetColor=clYellow
-Net226=NetName=uSD.MMC0_CMD|NetColor=clYellow
-Net227=NetName=uSD.MMC0_DAT0|NetColor=clYellow
-Net228=NetName=uSD.MMC0_DAT1|NetColor=clYellow
-Net229=NetName=uSD.MMC0_DAT2|NetColor=clYellow
-Net230=NetName=uSD.MMC0_DAT3|NetColor=clYellow
-Net231=NetName=VBUS|NetColor=$006E6EFF
-Net232=NetName=VBUS1|NetColor=$006E6EFF
-Net233=NetName=VDCDC1|NetColor=$006E6EFF
-Net234=NetName=VDCDC2|NetColor=$006E6EFF
-Net235=NetName=VDCDC3|NetColor=$006E6EFF
-Net236=NetName=VDD_1V8|NetColor=$006E6EFF
-Net237=NetName=VDD_3V3A|NetColor=$006E6EFF
-Net238=NetName=VDD_3V3B|NetColor=$006E6EFF
-Net239=NetName=VTRC|NetColor=$006E6EFF
-Net240=NetName=YELA|NetColor=$00FF6E6E
+Net50=NetName=HDMI_1V8|NetColor=$006E6EFF
+Net51=NetName=HDMI_TX0-|NetColor=$00FF6E6E
+Net52=NetName=HDMI_TX0_N|NetColor=$00FF6E6E
+Net53=NetName=HDMI_TX0_P|NetColor=$00FF6E6E
+Net54=NetName=HDMI_TX0+|NetColor=$00FF6E6E
+Net55=NetName=HDMI_TX1-|NetColor=$00FF6E6E
+Net56=NetName=HDMI_TX1_N|NetColor=$00FF6E6E
+Net57=NetName=HDMI_TX1_P|NetColor=$00FF6E6E
+Net58=NetName=HDMI_TX1+|NetColor=$00FF6E6E
+Net59=NetName=HDMI_TX2-|NetColor=$00FF6E6E
+Net60=NetName=HDMI_TX2_N|NetColor=$00FF6E6E
+Net61=NetName=HDMI_TX2_P|NetColor=$00FF6E6E
+Net62=NetName=HDMI_TX2+|NetColor=$00FF6E6E
+Net63=NetName=HDMI_TXC-|NetColor=$00FF6E6E
+Net64=NetName=HDMI_TXC_N|NetColor=$00FF6E6E
+Net65=NetName=HDMI_TXC_P|NetColor=$00FF6E6E
+Net66=NetName=HDMI_TXC+|NetColor=$00FF6E6E
+Net67=NetName=MDIO_CLK|NetColor=$00FFFF6E
+Net68=NetName=MDIO_DATA|NetColor=$00FFFF6E
+Net69=NetName=MII1_COL|NetColor=$00FFFF6E
+Net70=NetName=MII1_CRS_DV|NetColor=$00FFFF6E
+Net71=NetName=MII1_RXCLK|NetColor=$00FFFF6E
+Net72=NetName=MII1_RXD0|NetColor=$00FFFF6E
+Net73=NetName=MII1_RXD1|NetColor=$00FFFF6E
+Net74=NetName=MII1_RXD2|NetColor=$00FFFF6E
+Net75=NetName=MII1_RXD3|NetColor=$00FFFF6E
+Net76=NetName=MII1_RXDV|NetColor=$00FFFF6E
+Net77=NetName=MII1_RXERR|NetColor=$00FFFF6E
+Net78=NetName=MII1_TXCLK|NetColor=$00FFFF6E
+Net79=NetName=MII1_TXD0|NetColor=$00FFFF6E
+Net80=NetName=MII1_TXD1|NetColor=$00FFFF6E
+Net81=NetName=MII1_TXD2|NetColor=$00FFFF6E
+Net82=NetName=MII1_TXD3|NetColor=$00FFFF6E
+Net83=NetName=MII1_TXEN|NetColor=$00FFFF6E
+Net84=NetName=MMC0_CD|NetColor=clYellow
+Net85=NetName=MMC0_CLKO|NetColor=clYellow
+Net86=NetName=MMC0_CMD|NetColor=clYellow
+Net87=NetName=MMC0_DAT0|NetColor=clYellow
+Net88=NetName=MMC0_DAT1|NetColor=clYellow
+Net89=NetName=MMC0_DAT2|NetColor=clYellow
+Net90=NetName=MMC0_DAT3|NetColor=clYellow
+Net91=NetName=MMC1_CLK|NetColor=$00FF6EFF
+Net92=NetName=MMC1_CMD|NetColor=$00FF6EFF
+Net93=NetName=MMC1_DATA0|NetColor=$00FF6EFF
+Net94=NetName=MMC1_DATA1|NetColor=$00FF6EFF
+Net95=NetName=MMC1_DATA2|NetColor=$00FF6EFF
+Net96=NetName=MMC1_DATA3|NetColor=$00FF6EFF
+Net97=NetName=MMC1_DATA4|NetColor=$00FF6EFF
+Net98=NetName=MMC1_DATA5|NetColor=$00FF6EFF
+Net99=NetName=MMC1_DATA6|NetColor=$00FF6EFF
+Net100=NetName=MMC1_DATA7|NetColor=$00FF6EFF
+Net101=NetName=MODE2|NetColor=$00FFFF6E
+Net102=NetName=N00000|NetColor=$006E6EFF
+Net103=NetName=NetAM335x_D7|NetColor=$006E6EFF
+Net104=NetName=NetAM335x_E10|NetColor=$006E6EFF
+Net105=NetName=NetAM335x_E6|NetColor=$006E6EFF
+Net106=NetName=NetAM335x_E9|NetColor=$006E6EFF
+Net107=NetName=NetAM335x_F10|NetColor=$006E6EFF
+Net108=NetName=NetC1_2|NetColor=$006E6EFF
+Net109=NetName=NetC10_1|NetColor=$006E6EFF
+Net110=NetName=NetC11_1|NetColor=$006E6EFF
+Net111=NetName=NetC144_2|NetColor=$006E6EFF
+Net112=NetName=NetC18_2|NetColor=$006E6EFF
+Net113=NetName=NetC2_2|NetColor=$006E6EFF
+Net114=NetName=NetC3_2|NetColor=$006E6EFF
+Net115=NetName=NetC31_2|NetColor=$006E6EFF
+Net116=NetName=NetC43_2|NetColor=$006E6EFF
+Net117=NetName=NetC44_2|NetColor=$00FF6E6E
+Net118=NetName=NetC47_2|NetColor=$00FF6E6E
+Net119=NetName=NetC55_2|NetColor=$00FF6E6E
+Net120=NetName=NetC6_2|NetColor=$006E6EFF
+Net121=NetName=NetC62_2|NetColor=$006E6EFF
+Net122=NetName=NetC64_2|NetColor=$006E6EFF
+Net123=NetName=NetFB?_2|NetColor=$006E6EFF
+Net124=NetName=NetJ2_1|NetColor=$00FF6E6E
+Net125=NetName=NetJ2_15|NetColor=$00FF6E6E
+Net126=NetName=NetJ2_17|NetColor=$00FF6E6E
+Net127=NetName=NetJ2_18|NetColor=$00FF6E6E
+Net128=NetName=NetR?_2|NetColor=$00FFFF6E
+Net129=NetName=NetR16_1|NetColor=$006E6EFF
+Net130=NetName=NetR20_2|NetColor=$00FFFF6E
+Net131=NetName=NetR21_2|NetColor=$00FFFF6E
+Net132=NetName=NetR25_1|NetColor=$00FFFF6E
+Net133=NetName=NetR26_1|NetColor=$00FFFF6E
+Net134=NetName=NetR26_2|NetColor=$00FFFF6E
+Net135=NetName=NetR27_1|NetColor=$00FFFF6E
+Net136=NetName=NetR27_2|NetColor=$00FFFF6E
+Net137=NetName=NetR28_1|NetColor=$00FFFF6E
+Net138=NetName=NetR28_2|NetColor=$00FFFF6E
+Net139=NetName=NetR29_1|NetColor=$00FFFF6E
+Net140=NetName=NetR30_1|NetColor=$00FFFF6E
+Net141=NetName=NetR30_2|NetColor=$00FFFF6E
+Net142=NetName=NetR31_1|NetColor=$00FFFF6E
+Net143=NetName=NetR31_2|NetColor=$00FFFF6E
+Net144=NetName=NetR32_1|NetColor=$00FFFF6E
+Net145=NetName=NetR33_1|NetColor=$00FFFF6E
+Net146=NetName=NetR34_1|NetColor=$00FFFF6E
+Net147=NetName=NetR34_2|NetColor=$00FFFF6E
+Net148=NetName=NetR35_1|NetColor=$00FFFF6E
+Net149=NetName=NetR36_1|NetColor=$00FFFF6E
+Net150=NetName=NetR36_2|NetColor=$00FFFF6E
+Net151=NetName=NetR37_1|NetColor=$00FFFF6E
+Net152=NetName=NetR37_2|NetColor=$00FFFF6E
+Net153=NetName=NetR38_1|NetColor=$00FFFF6E
+Net154=NetName=NetR38_2|NetColor=$00FFFF6E
+Net155=NetName=NetR39_1|NetColor=$00FFFF6E
+Net156=NetName=NetR39_2|NetColor=$00FFFF6E
+Net157=NetName=NetR40_1|NetColor=$00FFFF6E
+Net158=NetName=NetR41_1|NetColor=$00FFFF6E
+Net159=NetName=NetR41_2|NetColor=$00FFFF6E
+Net160=NetName=NetR42_1|NetColor=$00FFFF6E
+Net161=NetName=NetR42_2|NetColor=$00FFFF6E
+Net162=NetName=NetR43_1|NetColor=$00FFFF6E
+Net163=NetName=NetR43_2|NetColor=$00FFFF6E
+Net164=NetName=NetR44_1|NetColor=$00FFFF6E
+Net165=NetName=NetR45_1|NetColor=$00FFFF6E
+Net166=NetName=NetR45_2|NetColor=$00FFFF6E
+Net167=NetName=NetR46_1|NetColor=$00FFFF6E
+Net168=NetName=NetR47_1|NetColor=$00FFFF6E
+Net169=NetName=NetR47_2|NetColor=$00FFFF6E
+Net170=NetName=NetR48_1|NetColor=$00FFFF6E
+Net171=NetName=NetR48_2|NetColor=$00FFFF6E
+Net172=NetName=NetR52_1|NetColor=$00FFFF6E
+Net173=NetName=NetR52_2|NetColor=$00FFFF6E
+Net174=NetName=NetR53_1|NetColor=$00FFFF6E
+Net175=NetName=NetR53_2|NetColor=$00FFFF6E
+Net176=NetName=NetR54_2|NetColor=$00FFFF6E
+Net177=NetName=NetR55_2|NetColor=$00FFFF6E
+Net178=NetName=NetR56_2|NetColor=$00FFFF6E
+Net179=NetName=NetR57_2|NetColor=$00FFFF6E
+Net180=NetName=NetR60_2|NetColor=$00FFFF6E
+Net181=NetName=NetR62_2|NetColor=$00FFFF6E
+Net182=NetName=NetR63_2|NetColor=$00FFFF6E
+Net183=NetName=NetR68_2|NetColor=$00FFFF6E
+Net184=NetName=NetU11_17|NetColor=$00FFFF6E
+Net185=NetName=NetU6_17|NetColor=$00FFFF6E
+Net186=NetName=POWER.GND_ADC|NetColor=clGray
+Net187=NetName=POWER.USB_DC|NetColor=$006E6EFF
+Net188=NetName=POWER.VDD_1V8|NetColor=$006E6EFF
+Net189=NetName=POWER.VDD_3V3A|NetColor=$006E6EFF
+Net190=NetName=POWER.VDD_3V3AUX|NetColor=$006E6EFF
+Net191=NetName=POWER.VDD_3V3B|NetColor=$006E6EFF
+Net192=NetName=POWER.VDD_CORE|NetColor=$006E6EFF
+Net193=NetName=POWER.VDD_MPU|NetColor=$006E6EFF
+Net194=NetName=POWER.VDDS|NetColor=$006E6EFF
+Net195=NetName=POWER.VDDS_DDR|NetColor=$006E6EFF
+Net196=NetName=POWER.VIO|NetColor=$006E6EFF
+Net197=NetName=POWER.VRTC|NetColor=$006E6EFF
+Net198=NetName=REFCLKO|NetColor=$00FFFF6E
+Net199=NetName=RX_N|NetColor=$00FF6E6E
+Net200=NetName=RX_P|NetColor=$00FF6E6E
+Net201=NetName=RXD0/MODE0|NetColor=$00FFFF6E
+Net202=NetName=RXD1/MODE1|NetColor=$00FFFF6E
+Net203=NetName=RXD2/RMIISEL|NetColor=$00FFFF6E
+Net204=NetName=RXD3/PHYAD2|NetColor=$00FFFF6E
+Net205=NetName=RXDV|NetColor=$00FFFF6E
+Net206=NetName=RXER/PHYAD0|NetColor=$00FFFF6E
+Net207=NetName=RXP|NetColor=$00FF6E6E
+Net208=NetName=SD_CLK|NetColor=clYellow
+Net209=NetName=SD_CMD|NetColor=clYellow
+Net210=NetName=SD_DAT0|NetColor=clYellow
+Net211=NetName=SD_DAT1|NetColor=clYellow
+Net212=NetName=SD_DAT2|NetColor=clYellow
+Net213=NetName=SD_DAT3|NetColor=clYellow
+Net214=NetName=SPI1.SPI1_CLK|NetColor=$00FF6EFF
+Net215=NetName=SPI1.SPI1_CS0|NetColor=$00FF6EFF
+Net216=NetName=SPI1.SPI1_D0|NetColor=$00FF6EFF
+Net217=NetName=SPI1_CS0|NetColor=$00FF6EFF
+Net218=NetName=SPI1_D0|NetColor=$00FF6EFF
+Net219=NetName=SPI1_D1|NetColor=$00FF6EFF
+Net220=NetName=SPI1_SCLK|NetColor=$00FF6EFF
+Net221=NetName=SYS_RESETn|NetColor=$00FFFF6E
+Net222=NetName=TX_N|NetColor=$00FF6E6E
+Net223=NetName=TX_P|NetColor=$00FF6E6E
+Net224=NetName=TXCLK|NetColor=$00FFFF6E
+Net225=NetName=TXD0|NetColor=$00FFFF6E
+Net226=NetName=TXD1|NetColor=$00FFFF6E
+Net227=NetName=TXD2|NetColor=$00FFFF6E
+Net228=NetName=TXD3|NetColor=$00FFFF6E
+Net229=NetName=TXEN|NetColor=$00FFFF6E
+Net230=NetName=TXN|NetColor=$00FF6E6E
+Net231=NetName=TXP|NetColor=$00FF6E6E
+Net232=NetName=USB_DC|NetColor=$006E6EFF
+Net233=NetName=uSD.MMC0_CD|NetColor=clYellow
+Net234=NetName=uSD.MMC0_CLKO|NetColor=clYellow
+Net235=NetName=uSD.MMC0_CMD|NetColor=clYellow
+Net236=NetName=uSD.MMC0_DAT0|NetColor=clYellow
+Net237=NetName=uSD.MMC0_DAT1|NetColor=clYellow
+Net238=NetName=uSD.MMC0_DAT2|NetColor=clYellow
+Net239=NetName=uSD.MMC0_DAT3|NetColor=clYellow
+Net240=NetName=VBUS|NetColor=$006E6EFF
+Net241=NetName=VBUS1|NetColor=$006E6EFF
+Net242=NetName=VDCDC1|NetColor=$006E6EFF
+Net243=NetName=VDCDC2|NetColor=$006E6EFF
+Net244=NetName=VDCDC3|NetColor=$006E6EFF
+Net245=NetName=VDD_1V8|NetColor=$006E6EFF
+Net246=NetName=VDD_3V3A|NetColor=$006E6EFF
+Net247=NetName=VDD_3V3AUX|NetColor=$006E6EFF
+Net248=NetName=VDD_3V3B|NetColor=$006E6EFF
+Net249=NetName=VDD_CORE|NetColor=$006E6EFF
+Net250=NetName=VDD_MPU|NetColor=$006E6EFF
+Net251=NetName=VDDS_DDR|NetColor=$006E6EFF
+Net252=NetName=VTRC|NetColor=$006E6EFF
+Net253=NetName=YELA|NetColor=$00FF6E6E
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
