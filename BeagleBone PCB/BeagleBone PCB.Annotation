@@ -1,0 +1,40 @@
+[DesignatorManager]
+
+[SheetNumberManager]
+SheetNumberOrder=Display Order
+SheetNumberMethod=Increasing
+DocumentName0=BeagleBone Config+LED.SchDoc
+UniqueIDPath0=\TANCPWCQ
+SheetNumber0=6
+DocumentName1=BeagleBone DDRam.SchDoc
+UniqueIDPath1=\IBNDEOQI
+SheetNumber1=7
+DocumentName2=BeagleBone eMMC.SchDoc
+UniqueIDPath2=\QFVLPZAI
+SheetNumber2=8
+DocumentName3=BeagleBone Ethernet.SchDoc
+UniqueIDPath3=\GZFZDBQM
+SheetNumber3=9
+DocumentName4=BeagleBone Expansion.SchDoc
+UniqueIDPath4=\DIWDMAIE
+SheetNumber4=11
+DocumentName5=BeagleBone HDMI.SchDoc
+UniqueIDPath5=\LMZOJTJL
+SheetNumber5=10
+DocumentName6=BeagleBone Overview.SchDoc
+UniqueIDPath6=
+SheetNumber6=1
+DocumentName7=BeagleBone Power.SchDoc
+UniqueIDPath7=\IUQYLHEW
+SheetNumber7=2
+DocumentName8=BeagleBone Processor 1.SchDoc
+UniqueIDPath8=\CORCOLAK
+SheetNumber8=3
+DocumentName9=BeagleBone Processor 2.SchDoc
+UniqueIDPath9=\RDSHUCWI
+SheetNumber9=4
+DocumentName10=BeagleBone Processor 3.SchDoc
+UniqueIDPath10=\UKSQLOFE
+SheetNumber10=5
+
+
