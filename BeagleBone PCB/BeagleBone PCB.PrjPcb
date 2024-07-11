@@ -13,7 +13,7 @@ TemplateLocationPath=
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=1
 AllowPortNetNames=0
-AllowSheetEntryNetNames=1
+AllowSheetEntryNetNames=0
 AppendSheetNumberToLocalNets=0
 NetlistSinglePinNets=0
 DefaultConfiguration=Sources
@@ -1218,7 +1218,7 @@ Type6=2
 Type7=0
 Type8=1
 Type9=1
-Type10=1
+Type10=0
 Type11=2
 Type12=2
 Type13=2
@@ -1973,9 +1973,10 @@ Net247=NetName=VDD_3V3AUX|NetColor=$006E6EFF
 Net248=NetName=VDD_3V3B|NetColor=$006E6EFF
 Net249=NetName=VDD_CORE|NetColor=$006E6EFF
 Net250=NetName=VDD_MPU|NetColor=$006E6EFF
-Net251=NetName=VDDS_DDR|NetColor=$006E6EFF
-Net252=NetName=VTRC|NetColor=$006E6EFF
-Net253=NetName=YELA|NetColor=$00FF6E6E
+Net251=NetName=VDDS|NetColor=$006E6EFF
+Net252=NetName=VDDS_DDR|NetColor=$006E6EFF
+Net253=NetName=VTRC|NetColor=$006E6EFF
+Net254=NetName=YELA|NetColor=$00FF6E6E
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
